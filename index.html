@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta X-UA-Compatible=true>
+    <meta charset="UTF-8">
+    <title>Online Monster Manual</title>
+
+    <link rel="import" href="src/top-stats.html">
+    <link rel="import" href="src/creature-heading.html">
+    <link rel="import" href="src/abilities-block.html">
+    <link rel="import" href="src/property-block.html">
+    <link rel="import" href="src/property-line.html">
+    <link rel="import" href="src/stat-block.html">
+
+    <script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      stat-block {
+        /* A bit of margin for presentation purposes, to show off the drop
+        shadow. */
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    </style>
+</head>
+<body>
+  <div id="searchForm">
+      <input type="text" id="searchTxt" placeholder="Monster Name">
+      <button id="search">Search</button>
+  </div>
+  <div id="container"></div>
+  <script id="template" type="text/ractive">
+    {{#if name}}
+    <img src={{image}}>
+    <div id="description">
+      {{#each description: num}}
+      <p><b>{{description[num].title}}</b> {{description[num].content}}</p>
+      {{/each}}
+    </div>
+    <stat-block>
+      <creature-heading>
+        <h1>{{name}}</h1>
+        <h2>{{statblock.size}} {{statblock.shape}}, {{statblock.alignment}}</h2>
+      </creature-heading>
+
+      <top-stats>
+        <property-line>
+          <h4>Armor Class</h4>
+          <p>{{statblock.ac}}</p>
+        </property-line>
+        <property-line>
+          <h4>Hit Points</h4>
+          <p>{{statblock.hp}}</p>
+        </property-line>
+        <property-line>
+          <h4>Speed</h4>
+          <p>{{statblock.speed}}</p>
+        </property-line>
+
+        <abilities-block data-str={{statblock.abilities.str}}
+                         data-dex={{statblock.abilities.dex}}
+                         data-con={{statblock.abilities.con}}
+                         data-int={{statblock.abilities.int}}
+                         data-wis={{statblock.abilities.wis}}
+                         data-cha={{statblock.abilities.cha}}></abilities-block>
+
+        <property-line>
+          <h4>Skills</h4>
+          <p>{{statblock.skills}}</p>
+        </property-line>
+        <property-line>
+          <h4>Senses</h4>
+          <p>{{statblock.senses}}</p>
+        </property-line>
+        <property-line>
+          <h4>Languages</h4>
+          <p>{{statblock.languages}}</p>
+        </property-line>
+        <property-line>
+          <h4>Challenge</h4>
+          <p>{{statblock.challenge}}</p>
+        </property-line>
+      </top-stats>
+
+      {{#if statblock.misc.length != 0}}
+      {{#each statblock.misc: num}}
+      <property-block>
+        <h4>{{statblock.misc[num].name}}</h4>
+        <p>{{statblock.misc[num].description}}</p>
+      </property-block>
+      {{/each}}
+      {{/if}}
+
+      {{#if statblock.actions.length != 0}}
+      <h3>Actions</h3>
+      {{#each statblock.actions: num}}
+      <property-block>
+        <h4>{{statblock.actions[num].name}}</h4>
+        <p>{{statblock.actions[num].description}}</p>
+      </property-block>
+      {{/each}}
+      {{/if}}
+    </stat-block>
+    {{/if}}
+  </script>
+  <script>
+    var ractive = new Ractive({
+      el: '#container',
+      template: '#template',
+      data: {}
+    });
+
+    $("#search").on("click", function() {
+      var entry = document.getElementById("searchTxt").value;
+      console.log(`${entry}`);
+      $.getJSON(`monsters/${entry}.json`, function(json) {
+        ractive.reset(json)
+      });
+    });
+  </script>
+</body>
+</html>
