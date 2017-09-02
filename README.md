@@ -7,14 +7,15 @@ The intent of this project is to be a complete online repository for every monst
 This project utilizes the following:
 
 - [Ractive.js](http://ractivejs.org)
-- [Flatdoc](http://ricostacruz.com/flatdoc/)
+- [JQuery](http://jquery.com)
+- [Twitter Bootstrap](https://getbootstrap.com)
 - [Statblock 5e](https://github.com/Valloric/statblock5e)
 
 ## Legal
 
 5e_monster_manual Copyright (c) 2016 Ben Moore. (MIT License)
 
-See LICENSE for more info.
+See [LICENSE](https://git.bmoore.xyz/ben/5e_monster_manual/src/master/LICENSE) for more info.
 
 
 The contents of these pages are Copyright (c) *Wizards of the Coast LLC*.
@@ -23,6 +24,6 @@ All rights reserved.
 
 ## TODO
 
-- [ ] Incorporate ractive into statblock template
-- [ ] Decide if flatdoc is best, or straight html
-- [ ] Add Twitter Bootstrap/JQuery?
+- [x] Incorporate ractive into statblock template
+- [x] Add Twitter Bootstrap/JQuery?
+- [ ] Add all monster entries to `monsters/` directory.
