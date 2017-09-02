@@ -3,7 +3,15 @@
 <head>
     <meta X-UA-Compatible=true>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Online Monster Manual</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 
     <link rel="import" href="src/top-stats.html">
     <link rel="import" href="src/creature-heading.html">
@@ -12,8 +20,6 @@
     <link rel="import" href="src/property-line.html">
     <link rel="import" href="src/stat-block.html">
 
-    <script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <style>
       body {
@@ -42,7 +48,7 @@
       <p><b>{{description[num].title}}</b> {{description[num].content}}</p>
       {{/each}}
     </div>
-    <stat-block>
+    <stat-block {{#if double === "true"}}data-two-column{{/if}}>
       <creature-heading>
         <h1>{{name}}</h1>
         <h2>{{statblock.size}} {{statblock.shape}}, {{statblock.alignment}}</h2>
@@ -117,7 +123,7 @@
 
     $("#search").on("click", function() {
       var entry = document.getElementById("searchTxt").value;
-      console.log(`${entry}`);
+      document.getElementById("searchTxt").value = '';
       $.getJSON(`monsters/${entry}.json`, function(json) {
         ractive.reset(json)
       });
