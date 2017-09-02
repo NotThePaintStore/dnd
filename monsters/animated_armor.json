@@ -1,0 +1,55 @@
+{
+  "name": "Animated Armor",
+  "description": [
+    {
+      "content": "This empty steel shell clamors as it moves, heavy plates banging and grinding against one another like the vengeful spirit of a fallen knight. Ponderous but persistent, this magical guardian is almost always a suit of plate armor."
+    },
+    {
+      "content": "To add to its menace, animated armor is frequently enchanted with scripted speech, so the armor can utter warnings, demand passwords, or deliver riddles. Rare suits of animated armor are able to carry on an actual conversation."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "size": "Medium",
+    "shape": "construct",
+    "alignment": "unaligned",
+    "ac": "18 (natural armor)",
+    "hp": "33 (6d8 + 6)",
+    "speed": "25 ft.",
+    "abilities": {
+      "str": "14",
+      "dex": "11",
+      "con": "13",
+      "int": "1",
+      "wis": "3",
+      "cha": "1"
+    },
+    "dam_immune": "poison, psychic",
+    "con_immune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "skills": "",
+    "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "--",
+    "challenge": "1 (200 XP)",
+    "traits": [
+      {
+        "name": "Antimagic Susceptibility.",
+        "description": "The armor is incapacitated while in the area of an anti magic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      },
+      {
+        "name": "False Appearance.",
+        "description": "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "description": "The armor makes two melee attacks."
+      },
+      {
+        "name": "Slam.",
+        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage"
+      }
+    ]
+  }
+}

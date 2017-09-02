@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "description": [
+    {
+      "title": "",
+      "content": ""
+    }
+  ],
+  "image": "",
+  "double": "",
+  "statblock": {
+    "size": "",
+    "shape": "",
+    "alignment": "",
+    "ac": "",
+    "hp": "",
+    "speed": "",
+    "abilities": {
+      "str": "",
+      "dex": "",
+      "con": "",
+      "int": "",
+      "wis": "",
+      "cha": ""
+    },
+    "dam_immune": "",
+    "con_immune": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challenge": "",
+    "traits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ]
+  }
+}
