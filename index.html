@@ -16,19 +16,6 @@
     <link rel="import" href="src/property-line.html">
     <link rel="import" href="src/stat-block.html">
 
-
-    <style>
-      body {
-        margin: 0;
-      }
-
-      stat-block {
-        /* A bit of margin for presentation purposes, to show off the drop
-        shadow. */
-        margin-left: 20px;
-        margin-top: 20px;
-      }
-    </style>
 </head>
 <body>
   <nav class="navbar navbar-fixed-top navbar-dark bg-dark">
@@ -36,11 +23,10 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Online Monster Manual</a>
       </div>
-      <span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span>
       <div id="navbar" class="navbar">
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" id="searchbar" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -49,29 +35,24 @@
   <div class="container-fluid">
     <div class="row">
       <!--Sidebar-->
-      <div class="col-sm-3 col-md-2 sidebar navbar-dark bg-dark">
-        <ul class="nav nav-sidebar">
-          <li class="nav-item active"><a class="nav-link" href="">Nav item</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Nav item again</a></li>
-          <li class="nav-item"><a class="nav-link" href="">One more nav</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Another nav item</a></li>
-          <li class="nav-item"><a class="nav-link" href="">More navigation</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Nav item again</a></li>
-          <li class="nav-item"><a class="nav-link" href="">One more nav</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Another nav item</a></li>
-        </ul>
-      </div>
+      <nav class="flex-column navbar-dark bg-dark col-sm-3 col-md-2">
+        <button class="btn btn-link text-primary" role="link" type="button" value="aarakocra">Aarakocra</button>
+        <button class="btn btn-link text-primary" role="link" type="button" value="deva">Deva</button>
+        <button class="btn btn-link text-primary" role="link" type="button" value="planetar">Planetar</button>
+        <button class="btn btn-link text-primary" role="link" type="button" value="solar">Solar</button>
+        <div class="container"><span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span></div>
+      </nav>
       <!--End Sidebar-->
       <div class="container-fluid main col-sm-9 col-md-10 bg-light">
-        <!--Alert Box-->
+        <!--Alert Box
         <div class="alert alert-danger alert-dismissible" role="alert">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
           That monster was not found! (Double-check your spelling.)
         </div>
-        <!--End Alert Box-->
-        <div id="dnd" class="row"></div>
+        End Alert Box-->
+        <div id="dnd" class="row mt-3"></div>
       </div>
     </div>
   </div>
@@ -79,10 +60,10 @@
   <script id="template" type="text/ractive">
     {{#if name}}
     <div class="col-sm-5">
-      <div class="row container-fluid">
+      <div class="row container">
         <img class="img-fluid mx-auto" src={{image}}/>
       </div>
-      <div class="row">
+      <div class="row container">
         <stat-block {{#if double === "true"}}data-two-column{{/if}}>
           <creature-heading>
             <h1>{{name}}</h1>
@@ -165,6 +146,7 @@
     </div>
     <div class="col-sm-7 mt-3">
       <div id="description">
+        <h1>{{name}}</h1>
         {{#each description: num}}
         <p><b>{{description[num].title}}</b> {{description[num].content}}</p>
         {{/each}}
@@ -184,18 +166,24 @@
       data: {}
     });
 
-    var monster;
+    var monster = "";
 
     ractive.on("newMonster", function() {
       $.getJSON(`monsters/${monster}.json`, function(json) {
-        ractive.reset(json)
+        ractive.reset(json);
       });
     });
 
-    $("#search").on("click", function() {
-      monster = (document.getElementById("searchbar").value).replace(/ /g, "_");
+    $("form").submit(function(event) {
+      event.preventDefault();
+      monster = ((document.getElementById("searchbar").value).replace(/ /g, "_")).toLowerCase();
       ractive.fire("newMonster");
-    })
+    });
+
+    $(".btn-link").click(function() {
+      monster = $(this).val();
+      ractive.fire("newMonster");
+    });
   </script>
 </body>
 </html>

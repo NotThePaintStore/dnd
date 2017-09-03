@@ -1,0 +1,76 @@
+- [x] Aarakocra (bm)
+- [ ] Aboleth
+- [ ] Angels
+  - [ ] Deva
+  - [ ] Planetar
+  - [ ] Solar
+- [ ] Animated Objects  
+  - [ ] Animated Armor
+  - [ ] Animated Sword
+  - [ ] Rug of Smothering
+- [x] Ankheg (bm)
+- [ ] Azer
+- [ ] Banshee
+- [ ] Basilisk
+- [ ] Behir
+- [ ] Beholders
+  - [ ]
+  - [ ]
+  - [ ]
+- [ ] Blights
+- [ ] Bugbears
+- [ ] Bulette
+- [ ] Bullywug
+- [ ] Cambion
+- [ ] Carrion Crawler
+- [ ] Centaur
+- [ ] Chimera
+- [ ] Chuul
+- [ ] Cloaker
+- [ ] Cockatrice
+- [ ] Couatl
+- [ ] Crawling Claw
+- [ ] Cyclops
+- [ ] Darkmantle
+- [ ] Death Knight
+- [ ] Demilich
+- [ ] Demons
+  - [ ]
+- [ ] Devils
+  - [ ]
+- [ ] Dinosaurs
+  - [ ]
+- [ ] Displacer Beast
+- [ ] Doppelganger
+- [ ] Dracolich
+- [ ] Dragon, Shadow
+- [ ] Dragons
+  - [ ]
+- [ ] Dragon Turtle
+- [ ] Drider
+- [ ] Dryad
+- [ ] Duergar
+- [ ] Elementals
+  - [ ]
+- [ ] Elves: Drow
+- [ ] Empyrean
+- [ ] Ettercap
+- [ ] Ettin
+- [ ] Faerie Dragon
+- [ ] Flameskull
+- [ ] Flumph
+- [ ] Fomorian
+- [ ] Fungi
+- [ ] Galeb Duhr
+- [ ] Gargoyle
+- [ ] Genies
+- [ ] Ghost
+- [ ] Ghouls
+- [ ] Giants
+  - [ ]
+- [ ] Gibbering Mouther
+- [ ] Gith
+- [ ] Gnolls
+- [ ] Gnome, Deep (Svirfneblin)
+- [ ] Goblins
+- [ ] Golems
