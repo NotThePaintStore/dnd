@@ -7,6 +7,7 @@
     <title>Online Monster Manual</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
 
     <link rel="import" href="src/top-stats.html">
     <link rel="import" href="src/creature-heading.html">
@@ -35,10 +36,11 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Online Monster Manual</a>
       </div>
+      <span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span>
       <div id="navbar" class="navbar">
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" id="searchbar" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" id="search" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -47,7 +49,7 @@
   <div class="container-fluid">
     <div class="row">
       <!--Sidebar-->
-      <div class="col-sm-3 col-md-2 sidebar navbar-light bg-light">
+      <div class="col-sm-3 col-md-2 sidebar navbar-dark bg-dark">
         <ul class="nav nav-sidebar">
           <li class="nav-item active"><a class="nav-link" href="">Nav item</a></li>
           <li class="nav-item"><a class="nav-link" href="">Nav item again</a></li>
@@ -60,13 +62,13 @@
         </ul>
       </div>
       <!--End Sidebar-->
-      <div class="container-fluid main col-sm-9 col-md-10">
+      <div class="container-fluid main col-sm-9 col-md-10 bg-light">
         <!--Alert Box-->
-        <div class="alert alert-danger alert-dismissible fade" role="alert">
+        <div class="alert alert-danger alert-dismissible" role="alert">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          Your search criteria did not return any results!
+          That monster was not found! (Double-check your spelling.)
         </div>
         <!--End Alert Box-->
         <div id="dnd" class="row"></div>
@@ -175,6 +177,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
   <script>
+    Ractive.DEBUG = false;
     var ractive = new Ractive({
       el: '#dnd',
       template: '#template',
@@ -189,7 +192,7 @@
       });
     });
 
-    $("button").on("click", function() {
+    $("#search").on("click", function() {
       monster = (document.getElementById("searchbar").value).replace(/ /g, "_");
       ractive.fire("newMonster");
     })

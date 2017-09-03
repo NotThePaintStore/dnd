@@ -1,0 +1,48 @@
+{
+  "name": "Flying Sword",
+  "description": [
+    {
+      "content": "A flying sword dances through the air, fighting with the confidence of a warrior that can't be injured. Swords are the most common weapons animated with magic. Axes, clubs, daggers, maces, spears, and even self-loading crossbows are also known to exist in animated object form."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "size": "Small",
+    "shape": "construct",
+    "alignment": "unaligned",
+    "ac": "17 (natural armor)",
+    "hp": "17 (5d6)",
+    "speed": "0 ft., fly 50 ft.",
+    "abilities": {
+      "str": "12",
+      "dex": "15",
+      "con": "11",
+      "int": "1",
+      "wis": "5",
+      "cha": "1"
+    },
+    "dam_immune": "poison, psychic",
+    "con_immune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+    "skills": "",
+    "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7",
+    "languages": "--",
+    "challenge": "1/4 (50 XP)",
+    "traits": [
+      {
+        "name": "Antimagic Susceptibility.",
+        "description": "The sword is incapacitated while in the area of an anti magic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      },
+      {
+        "name": "False Appearance.",
+        "description": "While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Longsword.",
+        "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+      }
+    ]
+  }
+}
