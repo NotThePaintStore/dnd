@@ -7,7 +7,7 @@
     }
   ],
   "image": "",
-  "double": "",
+  "double": "false",
   "statblock": {
     "size": "",
     "shape": "",
@@ -23,9 +23,11 @@
       "wis": "",
       "cha": ""
     },
+    "save_throw": "",
+    "skills": "",
+    "dam_resist": "",
     "dam_immune": "",
     "con_immune": "",
-    "skills": "",
     "senses": "",
     "languages": "",
     "challenge": "",
@@ -36,6 +38,12 @@
       }
     ],
     "actions": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "legendary_actions": [
       {
         "name": "",
         "description": ""

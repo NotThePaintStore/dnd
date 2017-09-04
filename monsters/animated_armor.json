@@ -27,7 +27,6 @@
     },
     "dam_immune": "poison, psychic",
     "con_immune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
-    "skills": "",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
     "languages": "--",
     "challenge": "1 (200 XP)",

@@ -1,9 +1,9 @@
 - [x] Aarakocra (bm)
 - [ ] Aboleth
-- [ ] Angels (bm)
-  - [ ] Deva
-  - [ ] Planetar
-  - [ ] Solar
+- [x] Angels (bm)
+  - [x] Deva
+  - [x] Planetar
+  - [x] Solar
 - [x] Animated Objects (bm)
   - [x] Animated Armor
   - [x] Animated Sword

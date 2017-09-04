@@ -34,13 +34,9 @@
       "wis": "13",
       "cha": "6"
     },
-    "dam_immune": "",
-    "con_immune": "",
-    "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
     "languages": "--",
     "challenge": "2 (450 XP)",
-    "traits": [],
     "actions": [
       {
         "name": "Bite.",
