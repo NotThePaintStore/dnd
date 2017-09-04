@@ -34,7 +34,7 @@ There are several ways to contribute to this project:
   I am not an expert front end developer, I'm certain there are better ways of doing things.
 - Submit a bug report or request a feature in the Issue Tracker!
 - Add to the monster catalog!
-  1. Add your initials to the entries in the [catalog](https://git.bmoore.xyz/ben/5e_monster_manual/CATALOG.md).
+  1. Add your initials to the entries in the [catalog](https://git.bmoore.xyz/ben/5e_monster_manual/src/master/CATALOG.md).
   2. Open a PR (with WIP) to reserve your space.
   3. Update your PR with all additions to the catalog.
   4. Remove WIP from the PR so I know it's ready for review.
