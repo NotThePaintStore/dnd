@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Online Monster Manual</title>
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
@@ -35,11 +36,13 @@
   <div class="container-fluid">
     <div class="row">
       <!--Sidebar-->
-      <nav class="nav flex-column navbar-dark bg-dark col-sm-3 col-md-2">
+      <nav class="nav sidebar flex-column bg-dark d-block col-sm-3 col-md-2">
         <button class="btn btn-link text-light" role="link" type="button" value="aarakocra">Aarakocra</button>
-        <button class="btn btn-link text-primary" role="link" type="button" value="deva">Deva</button>
-        <button class="btn btn-link text-primary" role="link" type="button" value="planetar">Planetar</button>
-        <button class="btn btn-link text-primary" role="link" type="button" value="solar">Solar</button>
+        <button class="btn btn-link text-light" role="link" type="button" value="ankheg">Ankheg</button>
+        <button class="btn btn-link text-secondary disabled" role="link" type="button" value="angels">Angels</button>
+        <button class="btn btn-link text-light" role="link" type="button" value="deva">Deva</button>
+        <button class="btn btn-link text-light" role="link" type="button" value="planetar">Planetar</button>
+        <button class="btn btn-link text-light" role="link" type="button" value="solar">Solar</button>
         <div class="container"><span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span></div>
       </nav>
       <!--End Sidebar-->
@@ -59,12 +62,12 @@
   <!--End Container-->
   <script id="template" type="text/ractive">
     {{#if name}}
-    <div class="col-sm-5">
+    <div class="col-sm-5 col-md-12 col-lg-5">
       <div class="row container">
         <img class="img-fluid mx-auto" src={{image}}/>
       </div>
       <div class="row container">
-        <stat-block {{#if double === "true"}}data-two-column{{/if}}>
+        <stat-block>
           <creature-heading>
             <h1>{{name}}</h1>
             <h2>{{statblock.size}} {{statblock.shape}}, {{statblock.alignment}}</h2>
@@ -177,6 +180,11 @@
     </div>
     {{/if}}
   </script>
+  <script id="template2" type="text/ractive">
+    {{#each catalog}}
+    <button class="btn btn-link text-light" role="link" type="button" value="">Aarakocra</button>
+    {{/each}}
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
@@ -187,6 +195,30 @@
       el: '#dnd',
       template: '#template',
       data: {}
+    });
+
+    var ractive2 = new Ractive({
+      el: '#sidebar',
+      template: '#template2',
+      data: {}
+    });
+
+    $(document).ready(function() {
+      $.getJSON("catalog.json", function(json) {
+        //ractive.set(json);
+        for (x in json) {
+          if ((typeof json[x]) === 'object') {
+            for (y in json[x]) {
+              console.log(json[x][y]);
+              for (z in json[x][y]) {
+                console.log(json[x][y][z]);
+              };
+            };
+          } else {
+            console.log(json[x]);
+          }
+        };
+      });
     });
 
     var monster = "";

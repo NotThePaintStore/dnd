@@ -1,184 +1,182 @@
-{
+[
   "Aarakocra",
   "Aboleth",
-  "Angels": [
+  {"Angels": [
     "Deva",
     "Planetar",
-    "Solar"
-  ],
-  "Animated Objects": [
+    "Solar"]},
+  {"Animated Objects": [
     "Animated Armor",
     "Animated Sword",
-    "Rug of Smothering"
-  ],
-  - [x] Ankheg (bm)
-  - [ ] Azer
-  - [ ] Banshee
-  - [ ] Basilisk
-  - [ ] Behir
-  - [ ] Beholders
-    - [ ] Beholder
-    - [ ] Death Tyrant
-    - [ ] Spectator
-  - [ ] Blights
-    - [ ] Needle Blight
-    - [ ] Twig Blight
-    - [ ] Vine Blight
-  - [ ] Bugbears
-    - [ ] Bugbear
-    - [ ] Bugbear Chief
-  - [ ] Bulette
-  - [ ] Bullywug
-  - [ ] Cambion
-  - [ ] Carrion Crawler
-  - [ ] Centaur
-  - [ ] Chimera
-  - [ ] Chuul
-  - [ ] Cloaker
-  - [ ] Cockatrice
-  - [ ] Couatl
-  - [ ] Crawling Claw
-  - [ ] Cyclops
-  - [ ] Darkmantle
-  - [ ] Death Knight
-  - [ ] Demilich
-  - [ ] Demons
-    - [ ] Balor
-    - [ ] Barlgura
-    - [ ] Chasme
-    - [ ] Dretch
-    - [ ] Glabrezu
-    - [ ] Goristro
-    - [ ] Hezrou
-    - [ ] Manes
-    - [ ] Marilith
-    - [ ] Nalfeshnee
-    - [ ] Quasit
-    - [ ] Shadow Demon
-    - [ ] Vrock
-    - [ ] Yochlol
-  - [ ] Devils
-    - [ ] Barbed Devil
-    - [ ] Bearded Devil
-    - [ ] Bone Devil
-    - [ ] Chain Devil
-    - [ ] Erinyes
-    - [ ] Horned Devil
-    - [ ] Ice Devil
-    - [ ] Imp
-    - [ ] Lemure
-    - [ ] Pit Fiend
-    - [ ] Spined Devil
-  - [ ] Dinosaurs
-    - [ ] Allosaurus
-    - [ ] Ankylosaurus
-    - [ ] Plesiosaurus
-    - [ ] Pteranodon
-    - [ ] Triceratops
-    - [ ] Tyrannosaurus Rex
-  - [ ] Displacer Beast
-  - [ ] Doppelganger
-  - [ ] Dracolich
-    - [ ] Adult Blue Dracolich
-  - [ ] Dragon, Shadow
-    - [ ] Young Red Shadow Dragon
-  - [ ] Dragons
-    - [ ] Chromatic Dragons
-      - [ ] Black
-        - [ ] Ancient Black Dragon
-        - [ ] Adult Black Dragon
-        - [ ] Young Black Dragon
-        - [ ] Black Dragon Wyrmling
-      - [ ] Blue
-        - [ ] Ancient Blue Dragon
-        - [ ] Adult Blue Dragon
-        - [ ] Young Blue Dragon
-        - [ ] Blue Dragon Wyrmling
-      - [ ] Green
-        - [ ] Ancient Green Dragon
-        - [ ] Adult Green Dragon
-        - [ ] Young Green Dragon
-        - [ ] Green Dragon Wyrmling
-      - [ ] Red
-        - [ ] Ancient Red Dragon
-        - [ ] Adult Red Dragon
-        - [ ] Young Red Dragon
-        - [ ] Red Dragon Wyrmling
-      - [ ] White
-        - [ ] Ancient White Dragon
-        - [ ] Adult White Dragon
-        - [ ] Young White Dragon
-        - [ ] White Dragon Wyrmling
-    - [ ] Metallic
-      - [ ] Brass
-        - [ ] Ancient Brass Dragon
-        - [ ] Adult Brass Dragon
-        - [ ] Young Brass Dragon
-        - [ ] Brass Dragon Wyrmling
-      - [ ] Bronze
-        - [ ] Ancient Bronze Dragon
-        - [ ] Adult Bronze Dragon
-        - [ ] Young Bronze Dragon
-        - [ ] Bronze Dragon Wyrmling
-      - [ ] Copper
-        - [ ] Ancient Copper Dragon
-        - [ ] Adult Copper Dragon
-        - [ ] Young Copper Dragon
-        - [ ] Copper Dragon Wyrmling
-      - [ ] Gold
-        - [ ] Ancient Gold Dragon
-        - [ ] Adult Gold Dragon
-        - [ ] Young Gold Dragon
-        - [ ] Gold Dragon Wyrmling
-      - [ ] Silver
-        - [ ] Ancient Silver Dragon
-        - [ ] Adult Silver Dragon
-        - [ ] Young Silver Dragon
-        - [ ] Silver Dragon Wyrmling
-  - [ ] Dragon Turtle
-  - [ ] Drider
-  - [ ] Dryad
-  - [ ] Duergar
-  - [ ] Elementals
-    - [ ] Air Elemental
-    - [ ] Earth Elemental
-    - [ ] Fire Elemental
-    - [ ] Water Elemental
-  - [ ] Elves: Drow
-    - [ ] Drow
-    - [ ] Drow Elite Warrior
-    - [ ] Drow Mage
-    - [ ] Drow Priestess of Lolth
-  - [ ] Empyrean
-  - [ ] Ettercap
-  - [ ] Ettin
-  - [ ] Faerie Dragon
-  - [ ] Flameskull
-  - [ ] Flumph
-  - [ ] Fomorian
-  - [ ] Fungi
-    - [ ] Gas Spore
-    - [ ] Shrieker
-    - [ ] Violet Fungus
-  - [ ] Galeb Duhr
-  - [ ] Gargoyle
-  - [ ] Genies
-    - [ ] Dao
-    - [ ] Djinni
-    - [ ] Efreeti
-    - [ ] Marid
-  - [ ] Ghost
-  - [ ] Ghouls
-    - [ ] Ghast
-    - [ ] Ghoul
-  - [ ] Giants
-    - [ ] Cloud Giant
-    - [ ] Fire Giant
-    - [ ] Frost Giant
-    - [ ] Hill Giant
-    - [ ] Stone Giant
-    - [ ] Storm Giant
-  - [ ] Gibbering Mouther
+    "Rug of Smothering"]},
+  "Ankheg",
+  "Azer",
+  "Banshee",
+  "Basilisk",
+  "Behir",
+  {"Beholders": [
+    "Beholder",
+    "Death Tyrant",
+    "Spectator"]},
+  {"Blights": [
+    "Needle Blight",
+    "Twig Blight",
+    "Vine Blight"]},
+  {"Bugbears": [
+    "Bugbear",
+    "Bugbear Chief"]},
+  Bulette
+  Bullywug
+  Cambion
+  Carrion Crawler
+  Centaur
+  Chimera
+  Chuul
+  Cloaker
+  Cockatrice
+  Couatl
+  Crawling Claw
+  Cyclops
+  Darkmantle
+  Death Knight
+  Demilich
+  Demons
+    Balor
+    Barlgura
+    Chasme
+    Dretch
+    Glabrezu
+    Goristro
+    Hezrou
+    Manes
+    Marilith
+    Nalfeshnee
+    Quasit
+    Shadow Demon
+    Vrock
+    Yochlol
+  Devils
+    Barbed Devil
+    Bearded Devil
+    Bone Devil
+    Chain Devil
+    Erinyes
+    Horned Devil
+    Ice Devil
+    Imp
+    Lemure
+    Pit Fiend
+    Spined Devil
+  Dinosaurs
+    Allosaurus
+    Ankylosaurus
+    Plesiosaurus
+    Pteranodon
+    Triceratops
+    Tyrannosaurus Rex
+  Displacer Beast
+  Doppelganger
+  Dracolich
+    Adult Blue Dracolich
+  Dragon, Shadow
+    Young Red Shadow Dragon
+  Dragons
+    Chromatic Dragons
+      Black
+        Ancient Black Dragon
+        Adult Black Dragon
+        Young Black Dragon
+        Black Dragon Wyrmling
+      Blue
+        Ancient Blue Dragon
+        Adult Blue Dragon
+        Young Blue Dragon
+        Blue Dragon Wyrmling
+      Green
+        Ancient Green Dragon
+        Adult Green Dragon
+        Young Green Dragon
+        Green Dragon Wyrmling
+      Red
+        Ancient Red Dragon
+        Adult Red Dragon
+        Young Red Dragon
+        Red Dragon Wyrmling
+      White
+        Ancient White Dragon
+        Adult White Dragon
+        Young White Dragon
+        White Dragon Wyrmling
+    Metallic
+      Brass
+        Ancient Brass Dragon
+        Adult Brass Dragon
+        Young Brass Dragon
+        Brass Dragon Wyrmling
+      Bronze
+        Ancient Bronze Dragon
+        Adult Bronze Dragon
+        Young Bronze Dragon
+        Bronze Dragon Wyrmling
+      Copper
+        Ancient Copper Dragon
+        Adult Copper Dragon
+        Young Copper Dragon
+        Copper Dragon Wyrmling
+      Gold
+        Ancient Gold Dragon
+        Adult Gold Dragon
+        Young Gold Dragon
+        Gold Dragon Wyrmling
+      Silver
+        Ancient Silver Dragon
+        Adult Silver Dragon
+        Young Silver Dragon
+        Silver Dragon Wyrmling
+  Dragon Turtle
+  Drider
+  Dryad
+  Duergar
+  Elementals
+    Air Elemental
+    Earth Elemental
+    Fire Elemental
+    Water Elemental
+  Elves: Drow
+    Drow
+    Drow Elite Warrior
+    Drow Mage
+    Drow Priestess of Lolth
+  Empyrean
+  Ettercap
+  Ettin
+  Faerie Dragon
+  Flameskull
+  Flumph
+  Fomorian
+  Fungi
+    Gas Spore
+    Shrieker
+    Violet Fungus
+  Galeb Duhr
+  Gargoyle
+  Genies
+    Dao
+    Djinni
+    Efreeti
+    Marid
+  Ghost
+  Ghouls
+    Ghast
+    Ghoul
+  Giants
+    Cloud Giant
+    Fire Giant
+    Frost Giant
+    Hill Giant
+    Stone Giant
+    Storm Giant
+  Gibbering Mouther
   - [ ] Gith
     - [ ] Githyanki
       - [ ] Githyanki Warrior
@@ -492,5 +490,4 @@
     - [ ] Thug
     - [ ] Tribal Warrior
     - [ ] Veteran
-
-}
+]

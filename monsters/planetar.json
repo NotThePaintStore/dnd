@@ -67,8 +67,7 @@
       },
       {
         "name": "Innate Spellcasting.",
-        "description": "The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:<br><br> At will: <i>detect evil and good, invisibility</i> (self only)<br>3/day each: <i>blade barrier, dispel evil and good, flame strike,
-raise dead</i><br> 1/day each: <i>commune, control weather, insect plague</i>"
+        "description": "The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:<br><br> At will: <i>detect evil and good, invisibility</i> (self only)<br>3/day each: <i>blade barrier, dispel evil and good, flame strike, raise dead</i><br> 1/day each: <i>commune, control weather, insect plague</i>"
       },
       {
         "name": "Magic Resistance.",
