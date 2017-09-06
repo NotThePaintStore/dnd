@@ -6,21 +6,21 @@
   - [x] Solar
 - [x] Animated Objects (bm)
   - [x] Animated Armor
-  - [x] Animated Sword
+  - [x] Flying Sword
   - [x] Rug of Smothering
 - [x] Ankheg (bm)
-- [ ] Azer
-- [ ] Banshee
-- [ ] Basilisk
-- [ ] Behir
+- [x] Azer (bm)
+- [x] Banshee (bm)
+- [x] Basilisk (bm)
+- [x] Behir (bm)
 - [ ] Beholders
   - [ ] Beholder
   - [ ] Death Tyrant
   - [ ] Spectator
-- [ ] Blights
-  - [ ] Needle Blight
-  - [ ] Twig Blight
-  - [ ] Vine Blight
+- [x] Blights (bm)
+  - [x] Needle Blight
+  - [x] Twig Blight
+  - [x] Vine Blight
 - [ ] Bugbears
   - [ ] Bugbear
   - [ ] Bugbear Chief

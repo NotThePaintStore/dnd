@@ -56,13 +56,13 @@
     {{#if name}}
     <div class="col-sm-5 col-md-12 col-lg-5">
       <div class="row container">
-        <img class="img-fluid mx-auto" src={{image}}/>
+        <img class="img-fluid mx-auto" src=""/>
       </div>
       <div class="row container">
         <stat-block>
           <creature-heading>
             <h1>{{name}}</h1>
-            <h2>{{statblock.size}} {{statblock.shape}}, {{statblock.alignment}}</h2>
+            <h2>{{statblock.classification}}, {{statblock.alignment}}</h2>
           </creature-heading>
 
           <top-stats>
@@ -90,6 +90,12 @@
             <property-line>
               <h4>Saving Throws</h4>
               <p>{{statblock.save_throw}}</p>
+            </property-line>
+            {{/if}}
+            {{#if statblock.dam_vulnerable}}
+            <property-line>
+              <h4>Damage Vulnerabilities</h4>
+              <p>{{statblock.dam_vulnerable}}</p>
             </property-line>
             {{/if}}
             {{#if statblock.dam_resist}}
@@ -166,6 +172,9 @@
       <div id="description">
         <h1>{{name}}</h1>
         {{#each description: num}}
+          {{#if description[num].break === 'true'}}
+          <hr>
+          {{/if}}
         <p><b>{{description[num].title}}</b> {{description[num].content}}</p>
         {{/each}}
       </div>
@@ -188,6 +197,7 @@
         <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x]}}">{{catalog[x]}}</button>
       {{/if}}
     {{/each}}
+    <div class="container"><span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span></div>
   </script>
   <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -207,10 +217,8 @@
       data: {}
     });
 
-    $(document).ready(function() {
-      $.getJSON("catalog.json", function(json) {
-        ractive2.reset(json);
-      });
+    $.getJSON("catalog.json", function(json) {
+      ractive2.reset(json);
     });
 
     var monster = "";
@@ -221,18 +229,21 @@
       });
     });
 
-    $("form").submit(function(event) {
-      event.preventDefault();
-      monster = ((document.getElementById("searchbar").value).replace(/ /g, "_")).toLowerCase();
-      ractive.fire("newMonster");
+    $(document).ready(function() {
+      $("form").submit(function(event) {
+        event.preventDefault();
+        monster = $("#searchbar").val().replace(/ /g, "_").toLowerCase();
+        ractive.fire("newMonster");
+      });
     });
 
-    $("btn-link").click(function() {
-      console.log("Button clicked");
-      monster = $(this).val().toLowerCase();
-      console.log(monster);
-      ractive.fire("newMonster");
+    $(document).ready(function() {
+      $(".btn-link").click(function() {
+        monster = $(this).val().replace(/ /g, "_").toLowerCase();
+        ractive.fire("newMonster");
+      });
     });
+
   </script>
 </body>
 </html>
