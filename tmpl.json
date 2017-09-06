@@ -3,14 +3,14 @@
   "description": [
     {
       "title": "",
+      "break": "false",
       "content": ""
     }
   ],
   "image": "",
   "double": "false",
   "statblock": {
-    "size": "",
-    "shape": "",
+    "classification": "",
     "alignment": "",
     "ac": "",
     "hp": "",
@@ -25,6 +25,7 @@
     },
     "save_throw": "",
     "skills": "",
+    "dam_vulnerable": "",
     "dam_resist": "",
     "dam_immune": "",
     "con_immune": "",

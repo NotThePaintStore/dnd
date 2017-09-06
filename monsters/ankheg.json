@@ -20,8 +20,7 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "size": "Large",
-    "shape": "monstrosity",
+    "classification": "Large monstrosity",
     "alignment": "unaligned",
     "ac": "14 (natural armor) 11 while prone",
     "hp": "39 (6d10 + 6)",

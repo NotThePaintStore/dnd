@@ -26,8 +26,7 @@
   "image": "https://vignette1.wikia.nocookie.net/forgottenrealms/images/2/27/Monster_Manual_5e_-_Aarakocra_-_Christopher_burdett_-_p12.jpg",
   "double": "false",
   "statblock": {
-    "size": "Medium",
-    "shape": "humanoid (aarakocra)",
+    "classification": "Medium humanoid (aarakocra)",
     "alignment": "neutral good",
     "ac": "12",
     "hp": "13 (3d8)",

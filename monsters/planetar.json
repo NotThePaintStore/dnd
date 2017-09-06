@@ -26,6 +26,7 @@
       "content": "An angel doesn't require food, drink, or sleep."
     },
     {
+      "break": "true",
       "content": "Planetars act as the weapons of the gods they serve, presenting a tangible representation of their deities' might. A planetar can call down rain to relieve a drought, or can loose an insect plague to devour crops. A planetar's celestial ears detect every falsehood, and its radiant eyes see through every deception."
     },
     {
@@ -35,8 +36,7 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "size": "Large",
-    "shape": "celestial",
+    "classification": "Large celestial",
     "alignment": "lawful good",
     "ac": "19 (natural armor)",
     "hp": "200 (16d10 + 112)",

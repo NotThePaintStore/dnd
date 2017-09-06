@@ -26,6 +26,7 @@
       "content": "An angel doesn't require food, drink, or sleep."
     },
     {
+      "break": "true",
       "content": "A solar is godlike in its glory and power. On the battlefield, the solar's sword flies into the fray on its own, and a single arrow from a solar's bow can strike a target dead on contact. So great is a solar's celestial might that even demon princes shrink at its resonant commands."
     },
     {
@@ -35,8 +36,7 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "size": "Large",
-    "shape": "celestial",
+    "classification": "Large celestial",
     "alignment": "lawful good",
     "ac": "21 (natural armor)",
     "hp": "243 (18d10 + 144)",

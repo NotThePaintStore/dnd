@@ -26,6 +26,7 @@
       "content": "An angel doesn't require food, drink, or sleep."
     },
     {
+      "break": "true",
       "content": "Devas are angels that act as divine messengers or agents to the Material Plane, the Shadowfell, and the Feywild and that can assume a form appropriate to the realm they are sent to."
     },
     {
@@ -35,8 +36,7 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "size": "Medium",
-    "shape": "celestial",
+    "classification": "Medium celestial",
     "alignment": "lawful good",
     "ac": "17 (natural armor)",
     "hp": "136 (16d8 + 64)",
