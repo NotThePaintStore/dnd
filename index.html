@@ -33,7 +33,7 @@
     </div>
   </nav>
   <!--Main Container-->
-  <div class="container-fluid">
+  <div class="container-fluid" id="main">
     <div class="row">
       <!--Sidebar-->
       <nav class="nav sidebar flex-column bg-dark d-block col-sm-3 col-md-2" id="sidebar"></nav>
@@ -184,15 +184,25 @@
   <script id="template2" type="text/ractive">
     {{#each catalog: x}}
       {{#if ((typeof catalog[x]) === 'object')}}
+        <button class="btn btn-link text-secondary" type="button" data-toggle="collapse" data-target="#collapse{{(catalog[x][0]).replace(/[/ ,:]/g, "")}}">{{catalog[x][0]}}</button>
+        <div class="collapse ml-3" id="collapse{{(catalog[x][0]).replace(/[/ ,:]/g, "")}}">
         {{#each catalog[x]: y}}
-          {{#if ((typeof catalog[x][y]) === 'object')}}
-            {{#each catalog[x][y]: z}}
-              <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x][y][z]}}">{{catalog[x][y][z]}}</button>
-            {{/each}}
-          {{else}}
-            <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x][y]}}">{{catalog[x][y]}}</button>
+          {{#if (y > 0)}}
+            {{#if ((typeof catalog[x][y]) === 'object')}}
+              <button class="btn btn-link text-secondary" type="button" data-toggle="collapse" data-target="#collapse{{(catalog[x][y][0]).replace(/[/ ,:]/g, "")}}">{{catalog[x][y][0]}}</button>
+              <div class="collapse ml-3" id="collapse{{(catalog[x][y][0]).replace(/[/ ,:]/g, "")}}">
+              {{#each catalog[x][y]: z}}
+                {{#if (z > 0)}}
+                  <button class="btn btn-link text-light" type="button" value="{{catalog[x][y][z]}}">{{catalog[x][y][z]}}</button>
+                {{/if}}
+              {{/each}}
+            </div>
+            {{else}}
+              <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x][y]}}">{{catalog[x][y]}}</button>
+            {{/if}}
           {{/if}}
         {{/each}}
+        </div>
       {{else}}
         <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x]}}">{{catalog[x]}}</button>
       {{/if}}
@@ -238,8 +248,8 @@
     });
 
     $(document).ready(function() {
-      $(".btn-link").click(function() {
-        monster = $(this).val().replace(/ /g, "_").toLowerCase();
+      $(".btn-link.text-light").click(function() {
+        monster = $(this).val().replace(/[/ ,//']/g, "_").toLowerCase();
         ractive.fire("newMonster");
       });
     });
