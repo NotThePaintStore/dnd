@@ -21,11 +21,11 @@
   - [x] Needle Blight
   - [x] Twig Blight
   - [x] Vine Blight
-- [ ] Bugbears
-  - [ ] Bugbear
-  - [ ] Bugbear Chief
-- [ ] Bulette
-- [ ] Bullywug
+- [x] Bugbears (bm)
+  - [x] Bugbear
+  - [x] Bugbear Chief
+- [x] Bulette (bm)
+- [x] Bullywug (bm)
 - [ ] Cambion
 - [ ] Carrion Crawler
 - [ ] Centaur
