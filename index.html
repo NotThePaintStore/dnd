@@ -36,7 +36,7 @@
   <div class="container-fluid" id="main">
     <div class="row">
       <!--Sidebar-->
-      <nav class="nav sidebar flex-column bg-dark d-block col-sm-3 col-md-2" id="sidebar"></nav>
+      <nav class="nav sidebar flex-column bg-dark d-block col" id="sidebar"></nav>
       <!--End Sidebar-->
       <div class="container-fluid main col-sm-9 col-md-10 bg-light">
         <!--Alert Box
@@ -54,9 +54,9 @@
   <!--End Container-->
   <script id="template" type="text/ractive">
     {{#if name}}
-    <div class="col-sm-5 col-md-12 col-lg-5">
-      <div class="row container">
-        <img class="img-fluid mx-auto" src=""/>
+    <div class="col col-sm-12 col-lg-5 order-sm-12 order-lg-1">
+      <div class="row container d-none">
+        <img class="img-fluid mx-auto" src="{{image}}"/>
       </div>
       <div class="row container">
         <stat-block>
@@ -168,7 +168,7 @@
         </stat-block>
       </div>
     </div>
-    <div class="col-sm-7 mt-3">
+    <div class="col order-sm-1 order-lg-12">
       <div id="description">
         <h1>{{name}}</h1>
         {{#each description: num}}
@@ -185,26 +185,26 @@
     {{#each catalog: x}}
       {{#if ((typeof catalog[x]) === 'object')}}
         <button class="btn btn-link text-secondary" type="button" data-toggle="collapse" data-target="#collapse{{(catalog[x][0]).replace(/[/ ,:]/g, "")}}">{{catalog[x][0]}}</button>
-        <div class="collapse ml-3" id="collapse{{(catalog[x][0]).replace(/[/ ,:]/g, "")}}">
+        <div class="collapse ml-2" id="collapse{{(catalog[x][0]).replace(/[/ ,:]/g, "")}}">
         {{#each catalog[x]: y}}
           {{#if (y > 0)}}
             {{#if ((typeof catalog[x][y]) === 'object')}}
               <button class="btn btn-link text-secondary" type="button" data-toggle="collapse" data-target="#collapse{{(catalog[x][y][0]).replace(/[/ ,:]/g, "")}}">{{catalog[x][y][0]}}</button>
-              <div class="collapse ml-3" id="collapse{{(catalog[x][y][0]).replace(/[/ ,:]/g, "")}}">
+              <div class="collapse ml-2" id="collapse{{(catalog[x][y][0]).replace(/[/ ,:]/g, "")}}">
               {{#each catalog[x][y]: z}}
                 {{#if (z > 0)}}
-                  <button class="btn btn-link text-light" type="button" value="{{catalog[x][y][z]}}">{{catalog[x][y][z]}}</button>
+                  <button class="btn btn-link text-light" type="button" value="{{catalog[x][y][z]}}" onClick="navClick($(this).val())">{{catalog[x][y][z]}}</button>
                 {{/if}}
               {{/each}}
             </div>
             {{else}}
-              <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x][y]}}">{{catalog[x][y]}}</button>
+              <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x][y]}}" onClick="navClick($(this).val())">{{catalog[x][y]}}</button>
             {{/if}}
           {{/if}}
         {{/each}}
         </div>
       {{else}}
-        <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x]}}">{{catalog[x]}}</button>
+        <button class="btn btn-link text-light" role="link" type="button" value="{{catalog[x]}}" onClick="navClick($(this).val())">{{catalog[x]}}</button>
       {{/if}}
     {{/each}}
     <div class="container"><span class="text-muted copyright">All Content Copyright &copy; <i>Wizards of the Coast LLC.</i></span></div>
@@ -239,20 +239,16 @@
       });
     });
 
-    $(document).ready(function() {
-      $("form").submit(function(event) {
-        event.preventDefault();
-        monster = $("#searchbar").val().replace(/ /g, "_").toLowerCase();
-        ractive.fire("newMonster");
-      });
+    $("form").submit(function(event) {
+      event.preventDefault();
+      monster = $("#searchbar").val().replace(/ /g, "_").toLowerCase();
+      ractive.fire("newMonster");
     });
 
-    $(document).ready(function() {
-      $(".btn-link.text-light").click(function() {
-        monster = $(this).val().replace(/[/ ,//']/g, "_").toLowerCase();
-        ractive.fire("newMonster");
-      });
-    });
+    function navClick(creature) {
+      monster = creature.replace(/[/ ,//']/g, "_").toLowerCase();
+      ractive.fire("newMonster");
+    };
 
   </script>
 </body>
