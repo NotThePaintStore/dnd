@@ -1,13 +1,18 @@
 .navbar-brand {
   font-size: 1.50rem;
 }
+body {
+  max-height: 100%;
+}
+#main {
+  max-height: 100%;
+}
 .sidebar {
-  max-height: 727px;
-  overflow-y: auto;
+  max-height: 100%;
+  overflow-y: scroll;
 }
 .copyright {
   font-size: 9px;
-
 }
 .btn-link {
   display: block;
