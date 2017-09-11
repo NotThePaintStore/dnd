@@ -35,7 +35,7 @@
     "dam_immune": "poison, psychic",
     "con_immune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7",
-    "languages": "--",
+    "languages": "&mdash;",
     "challenge": "1/4 (50 XP)",
     "traits": [
       {
@@ -50,7 +50,7 @@
     "actions": [
       {
         "name": "Longsword.",
-        "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 5 (1d8 + 1) slashing damage."
       }
     ]
   }

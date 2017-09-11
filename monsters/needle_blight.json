@@ -50,11 +50,11 @@
     "actions": [
       {
         "name": "Claws.",
-        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (2d4 + 1) piercing damage."
+        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 6 (2d4 + 1) piercing damage."
       },
       {
         "name": "Needles.",
-        "description": "<i>Ranged Weapon Attack:</i> +3 to hit, range 30/60 ft., one target. <i>Hit:</i> 8 (2d6 + 1) piercing damage."
+        "description": "<i>Ranged Weapon Attack:</i> +3 to hit, range 30/60 ft., one target.<br> <i>Hit:</i> 8 (2d6 + 1) piercing damage."
       }
     ]
   }

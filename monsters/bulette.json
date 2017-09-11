@@ -41,7 +41,7 @@
     },
     "skills": "Perception +6",
     "senses": "darkvision 60ft., tremorsense 60ft., passive Perception 16",
-    "languages": "--",
+    "languages": "&mdash;",
     "challenge": "5 (1,800 XP)",
     "traits": [
       {
@@ -52,7 +52,7 @@
     "actions": [
       {
         "name": "Bite.",
-        "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 30 (4d12 + 4) piercing damage."
+        "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 30 (4d12 + 4) piercing damage."
       },
       {
         "name": "Deadly Leap.",

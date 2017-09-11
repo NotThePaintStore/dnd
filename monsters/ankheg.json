@@ -34,12 +34,12 @@
       "cha": "6"
     },
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
-    "languages": "--",
+    "languages": "&mdash;",
     "challenge": "2 (450 XP)",
     "actions": [
       {
         "name": "Bite.",
-        "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so."
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target.<br><i>Hit:</i> 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so."
       },
       {
         "name": "Acid Spray (Recharge 6).",

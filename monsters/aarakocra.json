@@ -46,17 +46,17 @@
     "traits": [
       {
         "name": "Dive Attack.",
-        "description": "If the aarakocra is flying and dives at least 30    feet straight toward a target and then hits it with a melee       weapon attack, the attack deals an extra 3 (1d6) damage to the target."
+        "description": "If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target."
       }
     ],
     "actions": [
       {
         "name": "Talon.",
-        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
+        "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target.<br><i>Hit:</i> 4 (1d4 + 2) slashing damage."
       },
       {
         "name": "Javelin",
-        "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        "description": "<i>Melee or Ranged Weapon Attack:</i> +4 to hit, reach 5 ft. or range 30/120 ft., one target.<br><i>Hit:</i> 5 (1d6 + 2) piercing damage."
       }
     ]
   }

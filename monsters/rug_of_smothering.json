@@ -41,7 +41,7 @@
     "dam_immune": "poison, psychic",
     "con_immune": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
-    "languages": "--",
+    "languages": "&mdash;",
     "challenge": "2 (450 XP)",
     "traits": [
       {
@@ -60,7 +60,7 @@
     "actions": [
       {
         "name": "Smother.",
-        "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13) . Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage."
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one Medium or smaller creature.<br> <i>Hit:</i> The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage."
       }
     ]
   }

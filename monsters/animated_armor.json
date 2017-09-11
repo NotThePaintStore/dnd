@@ -38,7 +38,7 @@
     "dam_immune": "poison, psychic",
     "con_immune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
-    "languages": "--",
+    "languages": "&mdash;",
     "challenge": "1 (200 XP)",
     "traits": [
       {
@@ -57,7 +57,7 @@
       },
       {
         "name": "Slam.",
-        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage"
+        "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target.<br><i>Hit:</i> 5 (1d6 + 2) bludgeoning damage"
       }
     ]
   }

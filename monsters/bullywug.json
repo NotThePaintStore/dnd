@@ -74,11 +74,11 @@
       },
       {
         "name": "Bite.",
-        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d4 + 1) bludgeoning damage."
+        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 3 (1d4 + 1) bludgeoning damage."
       },
       {
         "name": "Spear.",
-        "description": "<i>Melee or Ranged Weapon Attack:</i> +3 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+        "description": "<i>Melee or Ranged Weapon Attack:</i> +3 to hit, reach 5 ft. or range 20/60 ft., one target.<br> <i>Hit:</i> 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
       }
     ]
   }

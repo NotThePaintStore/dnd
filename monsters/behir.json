@@ -50,7 +50,7 @@
       },
       {
         "name": "Bite.",
-        "description": "<i>Melee Weapon Attack:</i> +10 to hit, reach 10ft., one target. <i>Hit:</i> 22 (3d10 + 6) piercing damage."
+        "description": "<i>Melee Weapon Attack:</i> +10 to hit, reach 10ft., one target.<br> <i>Hit:</i> 22 (3d10 + 6) piercing damage."
       },
       {
         "name": "Constrict.",

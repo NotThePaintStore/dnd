@@ -77,7 +77,7 @@
       },
       {
         "name": "Mace.",
-        "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target. <i>Hit:</i> 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
+        "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
       },
       {
         "name": "Healing Touch (3/Day).",

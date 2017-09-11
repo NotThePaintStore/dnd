@@ -36,7 +36,7 @@
       "cha": "7"
     },
     "senses": "darkvision 60 ft., passive Perception 9",
-    "languages": "--",
+    "languages": "&mdash",
     "challenge": "3 (700 XP)",
     "traits": [
       {
@@ -47,7 +47,7 @@
     "actions": [
       {
         "name": "Bite.",
-        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target.<br><i>Hit:</i> 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage."
       }
     ]
   }

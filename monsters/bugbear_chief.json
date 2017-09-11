@@ -58,11 +58,11 @@
       },
       {
         "name": "Morningstar.",
-        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 12 (2d8 + 3) piercing damage."
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 12 (2d8 + 3) piercing damage."
       },
       {
         "name": "Javelin.",
-        "description": "<i>Melee or Ranged Weapon Attack:</i> +5 to hit, reach 5 ft. or range 30/120 ft., one target. <i>Hit:</i> 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range."
+        "description": "<i>Melee or Ranged Weapon Attack:</i> +5 to hit, reach 5 ft. or range 30/120 ft., one target.<br> <i>Hit:</i> 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range."
       }
     ]
   }

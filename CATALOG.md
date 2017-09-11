@@ -26,10 +26,10 @@
   - [x] Bugbear Chief
 - [x] Bulette (bm)
 - [x] Bullywug (bm)
-- [ ] Cambion
-- [ ] Carrion Crawler
-- [ ] Centaur
-- [ ] Chimera
+- [x] Cambion (bm)
+- [x] Carrion Crawler (bm)
+- [x] Centaur (bm)
+- [x] Chimera (bm)
 - [ ] Chuul
 - [ ] Cloaker
 - [ ] Cockatrice

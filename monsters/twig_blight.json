@@ -61,7 +61,7 @@
     "actions": [
       {
         "name": "Claws.",
-        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 3 (1d4 + 1) piercing damage."
+        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target.<br> <i>Hit:</i> 3 (1d4 + 1) piercing damage."
       }
     ]
   }
