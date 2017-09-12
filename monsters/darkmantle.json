@@ -1,0 +1,52 @@
+{
+  "name": "Darkmantle",
+  "description": [
+    {
+      "content": "A darkmantle clings to cavern ceilings, remaining perfectly still as it waits for creatures to pass beneath it. From a distance, it can pass itself off as a stalactite or a lump of stone. Then it drops from the ceiling and unfurls, surrounding itself with magical darkness as it engulfs and crushes its prey."
+    },
+    {
+      "content": "Darkmantles are found throughout the Underdark, but they are equally common on the Shadowfell. Thriving in that dark realm, they fill an ecological niche similar to bats on the Material Plane. Intelligent creatures of the Shadowfell sometimes train darkmantles as guardians or companions."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Small monstrosity",
+    "alignment": "unaligned",
+    "ac": "11",
+    "hp": "22 (5d6 + 5)",
+    "speed": "10ft., fly 30ft.",
+    "abilities": {
+      "str": "16",
+      "dex": "12",
+      "con": "13",
+      "int": "2",
+      "wis": "10",
+      "cha": "5"
+    },
+    "skills": "Stealth +3",
+    "senses": "blindsight 60ft., passive Perception 10",
+    "languages": "&mdash;",
+    "challenge": "1/2 (100 XP)",
+    "traits": [
+      {
+        "name": "Echolocation.",
+        "description": "The darkmantle can't use its blindsight while deafened."
+      },
+      {
+        "name": "False Appearance.",
+        "description": "While the darkmantle remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Crush.",
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one creature. <i>Hit:</i> 6 (1d6 + 3) bludgeoning damage, and the darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target's head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way.<br> While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle's speed also becomes 0, it can't benefit from any bonus to its speed, and it moves with the target. <br>A creature can detach the darkmantle by making a successful DC l3 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement."
+      },
+      {
+        "name": "",
+        "description": ""
+      }
+    ]
+  }
+}

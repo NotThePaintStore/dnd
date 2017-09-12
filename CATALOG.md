@@ -1,5 +1,5 @@
 - [x] Aarakocra (bm)
-- [ ] Aboleth
+- [ ] Aboleth (bm)
 - [x] Angels (bm)
   - [x] Deva
   - [x] Planetar
@@ -13,7 +13,7 @@
 - [x] Banshee (bm)
 - [x] Basilisk (bm)
 - [x] Behir (bm)
-- [ ] Beholders
+- [ ] Beholders (bm)
   - [ ] Beholder
   - [ ] Death Tyrant
   - [ ] Spectator
@@ -30,21 +30,21 @@
 - [x] Carrion Crawler (bm)
 - [x] Centaur (bm)
 - [x] Chimera (bm)
-- [ ] Chuul
-- [ ] Cloaker
-- [ ] Cockatrice
-- [ ] Couatl
-- [ ] Crawling Claw
-- [ ] Cyclops
-- [ ] Darkmantle
-- [ ] Death Knight
-- [ ] Demilich
-- [ ] Demons
-  - [ ] Balor
-  - [ ] Barlgura
-  - [ ] Chasme
-  - [ ] Dretch
-  - [ ] Glabrezu
+- [x] Chuul (bm)
+- [x] Cloaker (bm)
+- [x] Cockatrice (bm)
+- [x] Couatl (bm)
+- [x] Crawling Claw (bm)
+- [x] Cyclops (bm)
+- [x] Darkmantle (bm)
+- [x] Death Knight
+- [ ] Demilich (bm)
+- [ ] Demons (bm)
+  - [x] Balor
+  - [x] Barlgura
+  - [x] Chasme
+  - [x] Dretch
+  - [x] Glabrezu
   - [ ] Goristro
   - [ ] Hezrou
   - [ ] Manes
