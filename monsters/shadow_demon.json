@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Shadow Demon",
   "description": [
     {
       "content": "Spawned in the Infinite Layers of the Abyss, demons are the embodiment of chaos and evil - engines of destruction barely contained in monstrous form. Possessing no compassion, empathy, or mercy, they exist only to destroy."
@@ -80,50 +80,46 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "classification": "",
-    "alignment": "",
-    "ac": "",
-    "hp": "",
-    "speed": "",
+    "classification": "Medium fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "13",
+    "hp": "66 (12d8 + 12)",
+    "speed": "30ft., fly 30ft.",
     "abilities": {
-      "str": "",
-      "dex": "",
-      "con": "",
-      "int": "",
-      "wis": "",
-      "cha": ""
+      "str": "1",
+      "dex": "17",
+      "con": "12",
+      "int": "14",
+      "wis": "13",
+      "cha": "14"
     },
-    "save_throw": "",
-    "skills": "",
-    "dam_vulnerable": "",
-    "dam_resist": "",
-    "dam_immune": "",
-    "con_immune": "",
-    "senses": "",
-    "languages": "",
-    "challenge": "",
+    "save_throw": "Dex +5, Cha +4",
+    "skills": "Stealth +7",
+    "dam_vulnerable": "radiant",
+    "dam_resist": "acid, fire, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "dam_immune": "cold, lightning, poison",
+    "con_immune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "senses": "darkvision 120ft., passive Perception 11",
+    "languages": "Abyssal, telepathy 120ft.",
+    "challenge": "4 (1,100 XP)",
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Incorporeal Movement.",
+        "description": "The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+      },
+      {
+        "name": "Light Sensitivity.",
+        "description": "While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      },
+      {
+        "name": "Shadow Stealth.",
+        "description": "While in dim light or darkness, the demon can take the Hide action as a bonus action."
       }
     ],
     "actions": [
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "reactions": [
-      {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "",
-        "description": ""
+        "name": "Claws.",
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one creature. <i>Hit:</i> 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage."
       }
     ]
   }

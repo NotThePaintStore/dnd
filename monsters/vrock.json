@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Vrock",
   "description": [
     {
       "content": "Spawned in the Infinite Layers of the Abyss, demons are the embodiment of chaos and evil - engines of destruction barely contained in monstrous form. Possessing no compassion, empathy, or mercy, they exist only to destroy."
@@ -70,7 +70,7 @@
       "content": "Vrocks are dull-witted, capricious fiends that live only to create pain and carnage. A vrock resembles a giant hybrid of humanoid and vulture, its gnarled, bestial body and broad wings stinking of offal."
     },
     {
-      "content": "Vrotks' gobble humanoid flesh whenever they can, stunning potential prey with an ear-splitting shriek, then swooplng down to attack with beak and claw. Vrocks can shake their wings, releasing clouds of toxic spores."
+      "content": "Vrocks gobble humanoid flesh whenever they can, stunning potential prey with an ear-splitting shriek, then swooplng down to attack with beak and claw. Vrocks can shake their wings, releasing clouds of toxic spores."
     },
     {
       "content": "Coveting pretty things, vrocks turn against each other for the chance to lay claim to cheap jewelry or ornamental stones. Despite their love of treasure, vrocks are difficult to bribe, seeing no reason to bargain when they can simply take what they want from a would-be bargainer's corpse."
@@ -79,50 +79,52 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "classification": "",
-    "alignment": "",
-    "ac": "",
-    "hp": "",
-    "speed": "",
+    "classification": "Large fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "15 (natural armor)",
+    "hp": "104 (11d10 + 44)",
+    "speed": "40 ft., fly 60 ft.",
     "abilities": {
-      "str": "",
-      "dex": "",
-      "con": "",
-      "int": "",
-      "wis": "",
-      "cha": ""
+      "str": "17",
+      "dex": "15",
+      "con": "18",
+      "int": "8",
+      "wis": "13",
+      "cha": "8"
     },
-    "save_throw": "",
-    "skills": "",
-    "dam_vulnerable": "",
-    "dam_resist": "",
-    "dam_immune": "",
-    "con_immune": "",
-    "senses": "",
-    "languages": "",
-    "challenge": "",
+    "save_throw": "Dex +5, Wis +4, Cha +2",
+    "dam_resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "dam_immune": "poison",
+    "con_immune": "poisoned",
+    "senses": "darkvision 120ft., passive Perception 11",
+    "languages": "Abyssal, telepathy 120ft.",
+    "challenge": "6 (2,300 XP)",
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Magic Resistance.",
+        "description": "The vrock has advantage on saving throws against spells and other magical effects ."
       }
     ],
     "actions": [
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "reactions": [
+        "name": "Multiattack.",
+        "description": "The vrock makes two attacks: one with its beak and one with its talons."
+      },
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "legendary_actions": [
+        "name": "Beak.",
+        "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 10 (2d6 + 3) piercing damage."
+      },
       {
-        "name": "",
-        "description": ""
+        "name": "Talons.",
+        "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 14 (2d10 + 3) slashing damage."
+      },
+      {
+        "name": "Spores (Recharge 6).",
+        "description": "A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it."
+      },
+      {
+        "name": "Stunning Screech (1fDay).",
+        "description": "The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock's next turn."
       }
     ]
   }

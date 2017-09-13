@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Manes",
   "description": [
     {
       "content": "Spawned in the Infinite Layers of the Abyss, demons are the embodiment of chaos and evil - engines of destruction barely contained in monstrous form. Possessing no compassion, empathy, or mercy, they exist only to destroy."
@@ -76,50 +76,29 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "classification": "",
-    "alignment": "",
-    "ac": "",
-    "hp": "",
-    "speed": "",
+    "classification": "Small fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "9",
+    "hp": "9 (2d6 + 2)",
+    "speed": "20 ft.",
     "abilities": {
-      "str": "",
-      "dex": "",
-      "con": "",
-      "int": "",
-      "wis": "",
-      "cha": ""
+      "str": "10",
+      "dex": "9",
+      "con": "13",
+      "int": "3",
+      "wis": "8",
+      "cha": "4"
     },
-    "save_throw": "",
-    "skills": "",
-    "dam_vulnerable": "",
-    "dam_resist": "",
-    "dam_immune": "",
-    "con_immune": "",
-    "senses": "",
-    "languages": "",
-    "challenge": "",
-    "traits": [
-      {
-        "name": "",
-        "description": ""
-      }
-    ],
+    "dam_resist": "cold, fire, lightning",
+    "dam_immune": "poison",
+    "con_immune": "charmed, frightened, poisoned",
+    "senses": "darkvision 60ft., passive Perception 9",
+    "languages": "understands Abyssal but can't speak",
+    "challenge": "1/8 (25 XP)",
     "actions": [
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "reactions": [
-      {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "",
-        "description": ""
+        "name": "Claws.",
+        "description": "<i>Melee Weapon Attack:</i> +2 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (2d4) slashing damage."
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Goristro",
   "description": [
     {
       "content": "Spawned in the Infinite Layers of the Abyss, demons are the embodiment of chaos and evil - engines of destruction barely contained in monstrous form. Possessing no compassion, empathy, or mercy, they exist only to destroy."
@@ -76,50 +76,62 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "classification": "",
-    "alignment": "",
-    "ac": "",
-    "hp": "",
-    "speed": "",
+    "classification": "Huge fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "19 (natural armor)",
+    "hp": "310 (23d12 + 161)",
+    "speed": "40ft.",
     "abilities": {
-      "str": "",
-      "dex": "",
-      "con": "",
-      "int": "",
-      "wis": "",
-      "cha": ""
+      "str": "25",
+      "dex": "11",
+      "con": "25",
+      "int": "6",
+      "wis": "13",
+      "cha": "14"
     },
-    "save_throw": "",
-    "skills": "",
+    "save_throw": "Str +13, Dex +6, Con +13, Wis +7",
+    "skills": "Perception +7",
     "dam_vulnerable": "",
-    "dam_resist": "",
-    "dam_immune": "",
-    "con_immune": "",
-    "senses": "",
-    "languages": "",
-    "challenge": "",
+    "dam_resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "dam_immune": "poison",
+    "con_immune": "poisoned",
+    "senses": "darkvision 120 ft., passive Perception 17",
+    "languages": "Abyssal",
+    "challenge": "17 (18,000 XP)",
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Charge.",
+        "description": "If the goristro moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (7d10) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away and knocked prone."
+      },
+      {
+        "name": "Labyrinthine Recall.",
+        "description": "The goristro can perfectly recall any path it has traveled."
+      },
+      {
+        "name": "Magic Resistance.",
+        "description": "The goristro has advantage on saving throws against spells and other magical effects."
+      },
+      {
+        "name": "Siege Monster.",
+        "description": "The goristro deals double damage to objects and structures."
       }
     ],
     "actions": [
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "reactions": [
+        "name": "Multiattack.",
+        "description": "The goristro makes three attacks: two with its fists and one with its hoof."
+      },
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "legendary_actions": [
+        "name": "Fist.",
+        "description": "<i>Melee Weapon Attack:</i> +13 to hit, reach 10ft., one target. <i>Hit:</i> 20 (3d8 + 7) bludgeoning damage."
+      },
       {
-        "name": "",
-        "description": ""
+        "name": "Hoof.",
+        "description": "<i>Melee Weapon Attack:</i> + 13 to hit, reach 5 ft., one target. <i>Hit:</i> 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone."
+      },
+      {
+        "name": "Gore.",
+        "description": "<i>Melee Weapon Attack:</i> +13 to hit, reach 10ft., one target. <i>Hit:</i> 45 (7d10 + 7) piercing damage."
       }
     ]
   }

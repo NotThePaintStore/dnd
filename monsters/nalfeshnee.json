@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Nalfeshnee",
   "description": [
     {
       "content": "Spawned in the Infinite Layers of the Abyss, demons are the embodiment of chaos and evil - engines of destruction barely contained in monstrous form. Possessing no compassion, empathy, or mercy, they exist only to destroy."
@@ -79,50 +79,52 @@
   "image": "",
   "double": "false",
   "statblock": {
-    "classification": "",
-    "alignment": "",
-    "ac": "",
-    "hp": "",
-    "speed": "",
+    "classification": "Large fiend (demon)",
+    "alignment": "chaotic evil",
+    "ac": "18 (natural armor)",
+    "hp": "184 (16d10 + 96)",
+    "speed": "20ft., fly 30ft.",
     "abilities": {
-      "str": "",
-      "dex": "",
-      "con": "",
-      "int": "",
-      "wis": "",
-      "cha": ""
+      "str": "21",
+      "dex": "10",
+      "con": "22",
+      "int": "19",
+      "wis": "12",
+      "cha": "15"
     },
-    "save_throw": "",
-    "skills": "",
-    "dam_vulnerable": "",
-    "dam_resist": "",
-    "dam_immune": "",
-    "con_immune": "",
-    "senses": "",
-    "languages": "",
-    "challenge": "",
+    "save_throw": "Con +11, lnt +9, Wis +6, Cha +7",
+    "dam_resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "dam_immune": "poison",
+    "con_immune": "poisoned",
+    "senses": "trues ight 120 ft., passive Perception 11",
+    "languages": "Abyssal, telepathy 120ft.",
+    "challenge": "13 (10,000 XP)",
     "traits": [
       {
-        "name": "",
-        "description": ""
+        "name": "Magic Resistance.",
+        "description": "The nalfeshnee has advantage on saving throws against spells and other magical effects ."
       }
     ],
     "actions": [
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "reactions": [
+        "name": "Multiattack.",
+        "description": "The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws."
+      },
       {
-        "name": "",
-        "description": ""
-      }
-    ],
-    "legendary_actions": [
+        "name": "Bite.",
+        "description": "<i>Melee Weapon Attack:</i> +10 to hit, reach 5 ft., one target. <i>Hit:</i> 32 (5d10 + 5) piercing damage."
+      },
       {
-        "name": "",
-        "description": ""
+        "name": "Claw.",
+        "description": "<i>Melee Weapon Attack:</i> +10 to hit, reach 10ft., one target. <i>Hit:</i> 15 (3d6 + 5) slashing damage."
+      },
+      {
+        "name": "Horror Nimbus (Recharge 5-6).",
+        "description": "The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success . If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours."
+      },
+      {
+        "name": "Teleport.",
+        "description": "The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
       }
     ]
   }

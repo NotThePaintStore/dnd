@@ -39,21 +39,21 @@
 - [x] Darkmantle (bm)
 - [x] Death Knight
 - [ ] Demilich (bm)
-- [ ] Demons (bm)
+- [x] Demons (bm)
   - [x] Balor
   - [x] Barlgura
   - [x] Chasme
   - [x] Dretch
   - [x] Glabrezu
-  - [ ] Goristro
-  - [ ] Hezrou
-  - [ ] Manes
-  - [ ] Marilith
-  - [ ] Nalfeshnee
-  - [ ] Quasit
-  - [ ] Shadow Demon
-  - [ ] Vrock
-  - [ ] Yochlol
+  - [x] Goristro
+  - [x] Hezrou
+  - [x] Manes
+  - [x] Marilith
+  - [x] Nalfeshnee
+  - [x] Quasit
+  - [x] Shadow Demon
+  - [x] Vrock
+  - [x] Yochlol
 - [ ] Devils
   - [ ] Barbed Devil
   - [ ] Bearded Devil
