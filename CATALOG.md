@@ -54,8 +54,8 @@
   - [x] Shadow Demon
   - [x] Vrock
   - [x] Yochlol
-- [ ] Devils
-  - [ ] Barbed Devil
+- [ ] Devils (bm)
+  - [x] Barbed Devil
   - [ ] Bearded Devil
   - [ ] Bone Devil
   - [ ] Chain Devil
