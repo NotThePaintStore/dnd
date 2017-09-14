@@ -1,0 +1,85 @@
+{
+  "name": "Bone Devil",
+  "description": [
+    {
+      "content": "Devils personify tyranny, with a totalitarian society dedicated to the domination of mortal life. The shadow of the Nine Hells of Baator extends far across the multiverse, and Asmodeus, the dark lord of Nessus, strives to subjugate the cosmos to satisfy his thirst for power. To do so, he must continually expand his infernal, armies, sending his servants to the mortal realm to corrupt the souls from which new devils are spawned."
+    },
+    {
+      "title": "Lords of Tyranny.",
+      "content": "Devils live to conquer, enslave, and oppress. They take perverse delight in exercising authority over the weak, and any creature that defies the authority of a devil faces swift and cruel punishment. Every interaction is an opportunity for a devil to display its power, and all devils have a keen understanding of how to use and abuse their power."
+    },
+    {
+      "content": "Devils understand the failings that plague intelligent mortals, and they use that knowledge to lead mortals into temptation and darkness, turning creatures into slaves to their own corruption. Devils on the Material Plane use their influence to manipulate humanoid rulers, whispering evil thoughts, fomenting paranoia, and eventually driving them to tyrannical actions."
+    },
+    {
+      "title": "Obedience and Ambition.",
+      "content": "In accordance with their lawful alignment, devils obey even when they envy or dislike their superiors, knowing that their obedience will be rewarded. The hierarchy of the Nine Hells depends on this unswerving loyalty, without which that fiendish plane would become as anarchic as the Abyss."
+    },
+    {
+      "content": "At the same time, it is in the nature of devils to scheme, creating in some a desire to rule that eclipses their contentment to be ruled. This singular ambition is strongest among the archdevils whom Asmodeus appoints to rule the nine layers of the Nine Hells. These high-ranking fiends are the only devils to ever sample true power, which they crave like the sweetest ambrosia."
+    },
+    {
+      "title": "Dark Dealers and Soul Mongers.",
+      "content": "Devils are confined to the Lower Planes, but they can travel beyond those planes by way of portals or powerful summoning magic. They love to strike bargains with mortals seeking to gain some benefit or prize, but a mortal making such a bargain must be wary. Devils are crafty negotiators and positively ruthless at enforcing the terms of an agreement. Moreover, a contract with even the lowliest devil is enforced by Asmodeus's will. Any mortal creature that breaks such a contract instantly forfeits its soul, which is spirited away to the Nine Hells."
+    },
+    {
+      "content": "To own a creature's soul is to have absolute control over that creature, and most devils accept no other currency in exchange for the fiendish power and boons they can provide. A soul is usually forfeited when a mortal dies naturally, for devils are immortal and can wait years for a contract to play out. If a contract allows a devil to claim a mortal's soul before death, it can instantly return to the Nine Hells with the soul in its possession. Only divine intervention can release a soul after a devil has claimed it."
+    },
+    {
+      "break": "true",
+      "content": "Driven by hate, lust, and envy, bone devils act as the cruel taskmasters of the Nine Hells. They set weaker devils to work, taking special delight in seeing fiends that defy them demoted. At the same time, they long for promotion and are bitterly envious of their superiors, attempting to curry favor though it irks them to do so."
+    },
+    {
+      "content": "A bone devil appears as a humanoid husk, with dried skin stretched tight across its skeletal frame. It bears a fearsome skull-like head and the tail of a scorpion, and a foul odor of decay hangs in the air around it. Though they are devastating in combat with their claws, bone devils also wield hooked polearms made of bone, which they use to subdue enemies before striking with their venomous tails."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Large fiend (devil)",
+    "alignment": "lawful evil",
+    "ac": "19 (natural armor)",
+    "hp": "142 (15d10 + 60)",
+    "speed": "40 ft., fly 40ft.",
+    "abilities": {
+      "str": "18",
+      "dex": "16",
+      "con": "18",
+      "int": "13",
+      "wis": "14",
+      "cha": "16"
+    },
+    "save_throw": "Int +5, Wis +6, Cha +7",
+    "skills": "Deception +7, In sight +6",
+    "dam_resist": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+    "dam_immune": "fire, poison",
+    "con_immune": "poisoned",
+    "senses": "darkvision 120 ft., passive Perception 12",
+    "languages": "Infernal, telepathy 120 ft.",
+    "challenge": "9 (5,000 XP)",
+    "traits": [
+      {
+        "name": "Devil's Sight.",
+        "description": "Magical darkness doesn't impede the devil's darkvision."
+      },
+      {
+        "name": "Magic Resistance.",
+        "description": "The devil has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "description": "The devil makes three attacks: two with its claws and one with its sting."
+      },
+      {
+        "name": "Claw.",
+        "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 10 ft., one target. <i>Hit:</i> 8 (1d8 + 4) slashing damage."
+      },
+      {
+        "name": "Sting.",
+        "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 10ft., one target. <i>Hit:</i> 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      }
+    ]
+  }
+}

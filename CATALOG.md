@@ -56,12 +56,12 @@
   - [x] Yochlol
 - [ ] Devils (bm)
   - [x] Barbed Devil
-  - [ ] Bearded Devil
-  - [ ] Bone Devil
-  - [ ] Chain Devil
-  - [ ] Erinyes
-  - [ ] Horned Devil
-  - [ ] Ice Devil
+  - [x] Bearded Devil
+  - [x] Bone Devil
+  - [x] Chain Devil
+  - [x] Erinyes
+  - [x] Horned Devil
+  - [x] Ice Devil
   - [ ] Imp
   - [ ] Lemure
   - [ ] Pit Fiend
