@@ -73,13 +73,13 @@
   - [x] Pteranodon
   - [x] Triceratops
   - [x] Tyrannosaurus Rex
-- [ ] Displacer Beast
-- [ ] Doppelganger
-- [ ] Dracolich
-  - [ ] Adult Blue Dracolich
+- [x] Displacer Beast (bm)
+- [x] Doppelganger (bm)
+- [ ] Dracolich (bm)
+  - [ ] Adult Blue Dracolich (bm)
 - [ ] Dragon, Shadow
-  - [ ] Young Red Shadow Dragon
-- [ ] Dragons
+  - [ ] Young Red Shadow Dragon (bm)
+- [ ] Dragons (bm)
   - [ ] Chromatic Dragons
     - [ ] Black
       - [ ] Ancient Black Dragon
@@ -132,10 +132,10 @@
       - [ ] Adult Silver Dragon
       - [ ] Young Silver Dragon
       - [ ] Silver Dragon Wyrmling
-- [ ] Dragon Turtle
-- [ ] Drider
-- [ ] Dryad
-- [ ] Duergar
+- [x] Dragon Turtle (bm)
+- [x] Drider (bm)
+- [x] Dryad (bm)
+- [x] Duergar (bm)
 - [ ] Elementals
   - [ ] Air Elemental
   - [ ] Earth Elemental
