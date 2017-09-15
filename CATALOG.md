@@ -54,7 +54,7 @@
   - [x] Shadow Demon
   - [x] Vrock
   - [x] Yochlol
-- [ ] Devils (bm)
+- [x] Devils (bm)
   - [x] Barbed Devil
   - [x] Bearded Devil
   - [x] Bone Devil
@@ -62,10 +62,10 @@
   - [x] Erinyes
   - [x] Horned Devil
   - [x] Ice Devil
-  - [ ] Imp
-  - [ ] Lemure
-  - [ ] Pit Fiend
-  - [ ] Spined Devil
+  - [x] Imp
+  - [x] Lemure
+  - [x] Pit Fiend
+  - [x] Spined Devil
 - [ ] Dinosaurs
   - [ ] Allosaurus
   - [ ] Ankylosaurus
