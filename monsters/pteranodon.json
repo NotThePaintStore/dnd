@@ -1,0 +1,48 @@
+{
+  "name": "Pteranodon",
+  "description": [
+    {
+      "content": "Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed."
+    },
+    {
+      "content": "Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+    },
+    {
+      "break": "true",
+      "content": "These flying reptiles have wingspans of 15 to 20 feet and typically dive for small marine prey, though they are opportunists and will attack any creature that appears edible. A pteranodon has no teeth, instead using its sharp beak to stab prey too large to swallow with one gulp."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Medium beast",
+    "alignment": "unaligned",
+    "ac": "13 (natural armor)",
+    "hp": "13 (3d8)",
+    "speed": "10 ft., fly 60 ft.",
+    "abilities": {
+      "str": "12",
+      "dex": "15",
+      "con": "10",
+      "int": "2",
+      "wis": "9",
+      "cha": "5"
+    },
+    "skills": "Perception +1",
+    "senses": "passive Perception 11",
+    "languages": "&mdash;",
+    "challenge": "1/4 (50 XP)",
+    "traits": [
+      {
+        "name": "Flyby.",
+        "description": "The pteranodon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite.",
+        "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (2d4 + 1) piercing damage."
+      }
+    ]
+  }
+}

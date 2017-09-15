@@ -66,13 +66,13 @@
   - [x] Lemure
   - [x] Pit Fiend
   - [x] Spined Devil
-- [ ] Dinosaurs
-  - [ ] Allosaurus
-  - [ ] Ankylosaurus
-  - [ ] Plesiosaurus
-  - [ ] Pteranodon
-  - [ ] Triceratops
-  - [ ] Tyrannosaurus Rex
+- [x] Dinosaurs (bm)
+  - [x] Allosaurus
+  - [x] Ankylosaurus
+  - [x] Plesiosaurus
+  - [x] Pteranodon
+  - [x] Triceratops
+  - [x] Tyrannosaurus Rex
 - [ ] Displacer Beast
 - [ ] Doppelganger
 - [ ] Dracolich
