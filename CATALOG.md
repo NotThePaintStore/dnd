@@ -141,11 +141,11 @@
   - [x] Earth Elemental
   - [x] Fire Elemental
   - [x] Water Elemental
-- [ ] Elves: Drow
-  - [ ] Drow
-  - [ ] Drow Elite Warrior
-  - [ ] Drow Mage
-  - [ ] Drow Priestess of Lolth
+- [x] Elves: Drow (bm)
+  - [x] Drow
+  - [x] Drow Elite Warrior
+  - [x] Drow Mage
+  - [x] Drow Priestess of Lolth
 - [ ] Empyrean
 - [ ] Ettercap
 - [ ] Ettin
