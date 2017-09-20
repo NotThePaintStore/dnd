@@ -136,11 +136,11 @@
 - [x] Drider (bm)
 - [x] Dryad (bm)
 - [x] Duergar (bm)
-- [ ] Elementals
-  - [ ] Air Elemental
-  - [ ] Earth Elemental
-  - [ ] Fire Elemental
-  - [ ] Water Elemental
+- [x] Elementals (bm)
+  - [x] Air Elemental
+  - [x] Earth Elemental
+  - [x] Fire Elemental
+  - [x] Water Elemental
 - [ ] Elves: Drow
   - [ ] Drow
   - [ ] Drow Elite Warrior
