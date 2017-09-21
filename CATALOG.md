@@ -146,9 +146,9 @@
   - [x] Drow Elite Warrior
   - [x] Drow Mage
   - [x] Drow Priestess of Lolth
-- [ ] Empyrean
-- [ ] Ettercap
-- [ ] Ettin
+- [x] Empyrean (bm)
+- [x] Ettercap (bm)
+- [x] Ettin (bm)
 - [ ] Faerie Dragon
 - [ ] Flameskull
 - [ ] Flumph
