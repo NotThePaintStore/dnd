@@ -150,15 +150,15 @@
 - [x] Ettercap (bm)
 - [x] Ettin (bm)
 - [x] Faerie Dragon (bm)
-- [ ] Flameskull
-- [ ] Flumph
-- [ ] Fomorian
-- [ ] Fungi
-  - [ ] Gas Spore
-  - [ ] Shrieker
-  - [ ] Violet Fungus
-- [ ] Galeb Duhr
-- [ ] Gargoyle
+- [x] Flameskull (bm)
+- [x] Flumph (bm)
+- [x] Fomorian (bm)
+- [x] Fungi (bm)
+  - [x] Gas Spore
+  - [x] Shrieker
+  - [x] Violet Fungus
+- [x] Galeb Duhr (bm)
+- [x] Gargoyle (bm)
 - [ ] Genies
   - [ ] Dao
   - [ ] Djinni
