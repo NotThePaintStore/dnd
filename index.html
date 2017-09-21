@@ -156,7 +156,7 @@
           {{/if}}
 
           {{#if statblock.reactions}}
-          <h3>Actions</h3>
+          <h3>Reactions</h3>
           {{#each statblock.reactions: num}}
           <property-block>
             <h4>{{statblock.reactions[num].name}}</h4>
@@ -188,6 +188,28 @@
         <p><b>{{description[num].title}}</b> {{description[num].content}}</p>
         {{/each}}
       </div>
+      {{#if table}}
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            {{#each table[0]: x}}
+            <th>{{table[0][x]}}</th>
+            {{/each}}
+          </tr>
+        </thead>
+        <tbody>
+          {{#each table: x}}
+          {{#if (x > 0)}}
+          <tr>
+            {{#each table[x]: y}}
+            <td>{{table[x][y]}}</td>
+            {{/each}}
+          </tr>
+          {{/if}}
+          {{/each}}
+        </tbody>
+      </table>
+      {{/if}}
     </div>
     {{/if}}
   </script>

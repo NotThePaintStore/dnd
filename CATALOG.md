@@ -149,7 +149,7 @@
 - [x] Empyrean (bm)
 - [x] Ettercap (bm)
 - [x] Ettin (bm)
-- [ ] Faerie Dragon
+- [x] Faerie Dragon (bm)
 - [ ] Flameskull
 - [ ] Flumph
 - [ ] Fomorian
