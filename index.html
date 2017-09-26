@@ -267,6 +267,7 @@
 
     ractive.on("newMonster", function() {
       $.getJSON(`monsters/${monster}.json`, function(json) {
+        ractive.reset();
         ractive.reset(json);
       });
     });
