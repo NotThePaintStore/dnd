@@ -164,10 +164,10 @@
   - [ ] Djinni
   - [ ] Efreeti
   - [ ] Marid
-- [ ] Ghost
-- [ ] Ghouls
-  - [ ] Ghast
-  - [ ] Ghoul
+- [x] Ghost (bm)
+- [x] Ghouls (bm)
+  - [x] Ghast
+  - [x] Ghoul
 - [ ] Giants
   - [ ] Cloud Giant
   - [ ] Fire Giant
