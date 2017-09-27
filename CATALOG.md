@@ -175,7 +175,7 @@
   - [x] Hill Giant
   - [x] Stone Giant
   - [x] Storm Giant
-- [ ] Gibbering Mouther
+- [x] Gibbering Mouther (bm)
 - [x] Gith (bm)
   - [x] Githyanki
     - [x] Githyanki Warrior
@@ -187,7 +187,7 @@
   - [ ] Gnoll
   - [ ] Gnoll Pack Lord
   - [ ] Gnoll Fang of Yeenoghu
-- [ ] Gnome, Deep (Svirfneblin)
+- [x] Gnome, Deep (Svirfneblin) (bm)
 - [ ] Goblins
   - [ ] Goblin
   - [ ] Goblin Boss
