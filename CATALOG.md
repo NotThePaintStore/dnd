@@ -168,21 +168,21 @@
 - [x] Ghouls (bm)
   - [x] Ghast
   - [x] Ghoul
-- [ ] Giants
-  - [ ] Cloud Giant
-  - [ ] Fire Giant
-  - [ ] Frost Giant
-  - [ ] Hill Giant
-  - [ ] Stone Giant
-  - [ ] Storm Giant
+- [x] Giants (bm)
+  - [x] Cloud Giant
+  - [x] Fire Giant
+  - [x] Frost Giant
+  - [x] Hill Giant
+  - [x] Stone Giant
+  - [x] Storm Giant
 - [ ] Gibbering Mouther
-- [ ] Gith
-  - [ ] Githyanki
-    - [ ] Githyanki Warrior
-    - [ ] Githyanki Knight
-  - [ ] Githzerai
-    - [ ] Githzerai Monk
-    - [ ] Githzerai Zerth
+- [x] Gith (bm)
+  - [x] Githyanki
+    - [x] Githyanki Warrior
+    - [x] Githyanki Knight
+  - [x] Githzerai
+    - [x] Githzerai Monk
+    - [x] Githzerai Zerth
 - [ ] Gnolls
   - [ ] Gnoll
   - [ ] Gnoll Pack Lord
