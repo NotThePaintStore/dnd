@@ -183,10 +183,10 @@
   - [x] Githzerai
     - [x] Githzerai Monk
     - [x] Githzerai Zerth
-- [ ] Gnolls
-  - [ ] Gnoll
-  - [ ] Gnoll Pack Lord
-  - [ ] Gnoll Fang of Yeenoghu
+- [x] Gnolls (bm)
+  - [x] Gnoll
+  - [x] Gnoll Pack Lord
+  - [x] Gnoll Fang of Yeenoghu
 - [x] Gnome, Deep (Svirfneblin) (bm)
 - [ ] Goblins
   - [ ] Goblin
