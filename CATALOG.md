@@ -188,14 +188,14 @@
   - [x] Gnoll Pack Lord
   - [x] Gnoll Fang of Yeenoghu
 - [x] Gnome, Deep (Svirfneblin) (bm)
-- [ ] Goblins
-  - [ ] Goblin
-  - [ ] Goblin Boss
-- [ ] Golems
-  - [ ] Clay Golem
-  - [ ] Flesh Golem
-  - [ ] Iron Golem
-  - [ ] Stone Golem
+- [x] Goblins (bm)
+  - [x] Goblin
+  - [x] Goblin Boss
+- [x] Golems (bm)
+  - [x] Clay Golem
+  - [x] Flesh Golem
+  - [x] Iron Golem
+  - [x] Stone Golem
 - [ ] Gorgon
 - [ ] Grell
 - [ ] Grick
