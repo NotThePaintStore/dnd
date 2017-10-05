@@ -175,7 +175,7 @@
   - [x] Hill Giant
   - [x] Stone Giant
   - [x] Storm Giant
-- [ ] Gibbering Mouther
+- [x] Gibbering Mouther (bm)
 - [x] Gith (bm)
   - [x] Githyanki
     - [x] Githyanki Warrior
@@ -183,19 +183,19 @@
   - [x] Githzerai
     - [x] Githzerai Monk
     - [x] Githzerai Zerth
-- [ ] Gnolls
-  - [ ] Gnoll
-  - [ ] Gnoll Pack Lord
-  - [ ] Gnoll Fang of Yeenoghu
-- [ ] Gnome, Deep (Svirfneblin)
-- [ ] Goblins
-  - [ ] Goblin
-  - [ ] Goblin Boss
-- [ ] Golems
-  - [ ] Clay Golem
-  - [ ] Flesh Golem
-  - [ ] Iron Golem
-  - [ ] Stone Golem
+- [x] Gnolls (bm)
+  - [x] Gnoll
+  - [x] Gnoll Pack Lord
+  - [x] Gnoll Fang of Yeenoghu
+- [x] Gnome, Deep (Svirfneblin) (bm)
+- [x] Goblins (bm)
+  - [x] Goblin
+  - [x] Goblin Boss
+- [x] Golems (bm)
+  - [x] Clay Golem
+  - [x] Flesh Golem
+  - [x] Iron Golem
+  - [x] Stone Golem
 - [ ] Gorgon
 - [ ] Grell
 - [ ] Grick
