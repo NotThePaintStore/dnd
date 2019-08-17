@@ -1,6 +1,7 @@
 # D&D Campaign Notes
 
-### Notes:
+### Notes
+
 - PLANAR TRAVEL IS COMMON
 - Celestial armies guard the gates to the outer planes.
 - Tharizdun was the original god of death, but the Raven Queen mortally wounded him and cast him into the Far Realm to die. This knowledge has been forgotten by all except the Twins and the Raven Queen herself. The mind of the Mad God now spawns Aberrations that plague the world.
@@ -13,7 +14,50 @@
 - Etherguard: joint military force surrounding the Ghostlands; their role is to keep the ghosts away from the populated cities and towns. Each kingdom contributes men to the Etherguard annually.
 - The Archangels (or Ahura Mazda (celestial for “Holy Immortals”)) are the 4 Solars that are Pelor’s highest-ranked servants and personal guard. Their names are Uriel, Mikael, Israfil, and Azrael.
 
-### The Pantheon:
+### Outer Planes of Existence
+
+<table>
+  <tr>
+    <th>Plane</th>
+    <th>Alignment</th>
+    <th>Layers</th>
+    <th>Symbol</th>
+  </tr>
+  <tr>
+    <td>Arcadia, the Peacable Kingdoms of</td>
+    <td>LG</td>
+  </tr>
+  <tr>
+    <td>Elysium, the Blessed Fields of</td>
+    <td>NG</td>
+  </tr>
+  <tr>
+    <td>Arborea, the Wild Glades of</td>
+    <td>CG</td>
+  </tr>
+  <tr>
+    <td>Limbo, the Ever-Changing Chaos of</td>
+    <td>CN</td>
+  </tr>
+  <tr>
+    <td>The Abyss, the Infinite Layers of</td>
+    <td>CE</td>
+  </tr>
+  <tr>
+    <td>Acheron, the Eternal Battlefield of</td>
+    <td>NE</td>
+  </tr>
+  <tr>
+    <td>The Nine Hells<td>
+    <td>LE</td>
+  </tr>
+  <tr>
+    <td>Mechanus, the Clockwork Nirvana of</td>
+    <td>LN</td>
+  </tr>
+</table>
+
+## The Pantheon
 
 **The Lovers:**
 - Erathis the Lawbearer, goddess of civilization and invention
@@ -25,7 +69,7 @@
 
 **The Twins:**
 - Ioun the Knowing Mistress, goddess of knowledge
-- Vecna, god of evil secrets
+- Vecna the Whispered One, god of evil secrets
 
 **The Kings:**
 - Pelor the Dawnfather, god of the sun and agriculture
@@ -204,7 +248,7 @@ Zehir the Cloaked Serpent, god of darkness and poison
   </tr>
 </table>
 
-### Pantheon Lore:
+### Lore
 Corellon, king of the elves, sired two daughters, Avandra and Sehanine, through Melora. He also created the elves; when his blood spilled on the ground, the elves arose.
 
 Erathis and Melora have a tempestuous love affair. When there is balance in the world, they get along, but when civilization or wilderness run rampant, there is conflict. Also, Erathis does not get along with Corellon, Avandra, or Sehanine due to Melora’s unfaithfulness with Corellon.
@@ -219,13 +263,13 @@ Pelor has sought after Sehanine for millennia, but she does not share his affect
 
 Zehir was defeated and imprisoned during the Sundering deep beneath a tropical island in the equatorial sea.
 
-### Lesser Deities & Demigods:
+### Lesser Deities & Demigods
 
 **Kurtulmak, Lieutenant of Tiamat**
 
 Kurtulmak was the Kobold who brought Tiamat the knowledge of Dragonborn during the Dragon Wars; as a reward, she granted him great strength and immortality, and set him as one of her lieutenants. He was later tricked and imprisoned by Garl Glittergold in an endless underground maze while trying to recover an artifact Garl had stolen from Tiamat’s lair in the Nine Hells.
 
-**Garl Glittergold, god of gnomes**
+**Garl Glittergold, Lord of Gnomes**
 
 **Bal-Halar (celestial for “Divine Blood”)**
 
@@ -235,10 +279,35 @@ Demigod (Empyrean); son of the god Pelor and human mother, Eden. Centuries ago, 
 
 Primus only desires one thing: perfect law and order. As such, he oversees the operation of Mechanus, domain of Erathis. He created the Modrons, and also created the automatons that manage Sigil.
 
-### Races:
+**Bast, Patron of Felines**
+
+**Tyr, the First Knight**
+
+**Talos, the Hand of the Stormlord**
+
+**Moloch, Former Archdevil of Malbolge**
+
+#### Demon Princes
+
+- Orcus
+- Demogorgon
+
+#### Archdevils
+
+1. Zariel
+2. Dispater
+3. Mammon
+4. Fierna & Belial
+5. Levistus
+6. Glasya
+7. Baalzebul
+8. Mephistopheles
+9. Asmodeus
+
+### Races
 Start writing some stuff
 
-### Key Events:
+### Key Events
 
 **The Sundering**
 
@@ -248,7 +317,7 @@ A fierce war between the gods that nearly destroyed the multiverse. Neutral deit
 
 When Pelor cast out Bal-Halar and destroyed the city of Haladine, the continental empire fractured, and many of the larger cities became independent city-states or new kingdoms.
 
-### Key Locations:
+### Key Locations
 
 **The All-Forge**
 
@@ -294,16 +363,17 @@ Mountain Island at the southern edge of the world. It was here that a group of a
 
 **Sharktooth Archipelago**
 
-### Significant Figures:
+### Significant Figures
 
 **Madaura, the Pirate Mother**
 
 The Pirate Mother takes poor children from the ships and towns that her ships plunder, and brings them under her spell, changing their minds so she is viewed as their mother. She then raises them as her own. Only children can join her crews because only children can be manipulated by her magic.
 
-### Interesting NPCs:
+### Interesting NPCs
 - Tabaxi merchant who is also secretly a catnip dealer.
+- Chauvanist cowboy military leader.
 
-### Magic Items:
+### Magic Items
 
 **Cloak of the Dragon Mage**
 
@@ -313,19 +383,19 @@ A cloak that shimmers like the scales of any color of dragon. Wearing the cloak 
 
 A belt of dragon leather that increases your Strength score by 2 (to a maximum of 20)
 
-### Factions/Organizations/Guilds:
+### Factions/Organizations/Guilds
 
-**Order of Dragon Knights**
+**The Order of Dragon Knights**
 
-**Cult of the Dragon**
+**The Cult of the Dragon**
 
-**Thieves’ Guild**
+**The Shadowed Hand (Thieves' Guild)**
 
 **The Hawk-Lords of Felderwind**
 
-**Emerald Enclave**
+**The Emerald Enclave**
 
-### Potential Plot Hooks:
+### Potential Plot Hooks
 
 - If one of the characters is a noble, a rival will put out a contract for the PC to be killed.
 - If a PC acquires a Cloak of the Dragon Mage, they will be drawn into conflict with either the Cult of the Dragon or the Order of Dragon Knights.
