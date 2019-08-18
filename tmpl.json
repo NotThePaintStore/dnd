@@ -1,0 +1,63 @@
+{
+  "name": "",
+  "description": [
+    {
+      "title": "",
+      "break": "false",
+      "content": ""
+    }
+  ],
+  "table": [
+    ["", ""]
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "",
+    "alignment": "",
+    "ac": "",
+    "hp": "",
+    "speed": "",
+    "abilities": {
+      "str": "",
+      "dex": "",
+      "con": "",
+      "int": "",
+      "wis": "",
+      "cha": ""
+    },
+    "save_throw": "",
+    "skills": "",
+    "dam_vulnerable": "",
+    "dam_resist": "",
+    "dam_immune": "",
+    "con_immune": "",
+    "senses": "",
+    "languages": "",
+    "challenge": "",
+    "traits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "actions": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "reactions": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,491 @@
+- [x] Aarakocra (bm)
+- [ ] Aboleth (bm)
+- [x] Angels (bm)
+  - [x] Deva
+  - [x] Planetar
+  - [x] Solar
+- [x] Animated Objects (bm)
+  - [x] Animated Armor
+  - [x] Flying Sword
+  - [x] Rug of Smothering
+- [x] Ankheg (bm)
+- [x] Azer (bm)
+- [x] Banshee (bm)
+- [x] Basilisk (bm)
+- [x] Behir (bm)
+- [ ] Beholders (bm)
+  - [ ] Beholder
+  - [ ] Death Tyrant
+  - [ ] Spectator
+- [x] Blights (bm)
+  - [x] Needle Blight
+  - [x] Twig Blight
+  - [x] Vine Blight
+- [x] Bugbears (bm)
+  - [x] Bugbear
+  - [x] Bugbear Chief
+- [x] Bulette (bm)
+- [x] Bullywug (bm)
+- [x] Cambion (bm)
+- [x] Carrion Crawler (bm)
+- [x] Centaur (bm)
+- [x] Chimera (bm)
+- [x] Chuul (bm)
+- [x] Cloaker (bm)
+- [x] Cockatrice (bm)
+- [x] Couatl (bm)
+- [x] Crawling Claw (bm)
+- [x] Cyclops (bm)
+- [x] Darkmantle (bm)
+- [x] Death Knight
+- [ ] Demilich (bm)
+- [x] Demons (bm)
+  - [x] Balor
+  - [x] Barlgura
+  - [x] Chasme
+  - [x] Dretch
+  - [x] Glabrezu
+  - [x] Goristro
+  - [x] Hezrou
+  - [x] Manes
+  - [x] Marilith
+  - [x] Nalfeshnee
+  - [x] Quasit
+  - [x] Shadow Demon
+  - [x] Vrock
+  - [x] Yochlol
+- [x] Devils (bm)
+  - [x] Barbed Devil
+  - [x] Bearded Devil
+  - [x] Bone Devil
+  - [x] Chain Devil
+  - [x] Erinyes
+  - [x] Horned Devil
+  - [x] Ice Devil
+  - [x] Imp
+  - [x] Lemure
+  - [x] Pit Fiend
+  - [x] Spined Devil
+- [x] Dinosaurs (bm)
+  - [x] Allosaurus
+  - [x] Ankylosaurus
+  - [x] Plesiosaurus
+  - [x] Pteranodon
+  - [x] Triceratops
+  - [x] Tyrannosaurus Rex
+- [x] Displacer Beast (bm)
+- [x] Doppelganger (bm)
+- [ ] Dracolich (bm)
+  - [ ] Adult Blue Dracolich (bm)
+- [ ] Dragon, Shadow
+  - [ ] Young Red Shadow Dragon (bm)
+- [ ] Dragons (bm)
+  - [ ] Chromatic Dragons
+    - [ ] Black
+      - [ ] Ancient Black Dragon
+      - [ ] Adult Black Dragon
+      - [ ] Young Black Dragon
+      - [ ] Black Dragon Wyrmling
+    - [ ] Blue
+      - [ ] Ancient Blue Dragon
+      - [ ] Adult Blue Dragon
+      - [ ] Young Blue Dragon
+      - [ ] Blue Dragon Wyrmling
+    - [ ] Green
+      - [ ] Ancient Green Dragon
+      - [ ] Adult Green Dragon
+      - [ ] Young Green Dragon
+      - [ ] Green Dragon Wyrmling
+    - [ ] Red
+      - [ ] Ancient Red Dragon
+      - [ ] Adult Red Dragon
+      - [ ] Young Red Dragon
+      - [ ] Red Dragon Wyrmling
+    - [ ] White
+      - [ ] Ancient White Dragon
+      - [ ] Adult White Dragon
+      - [ ] Young White Dragon
+      - [ ] White Dragon Wyrmling
+  - [ ] Metallic
+    - [ ] Brass
+      - [ ] Ancient Brass Dragon
+      - [ ] Adult Brass Dragon
+      - [ ] Young Brass Dragon
+      - [ ] Brass Dragon Wyrmling
+    - [ ] Bronze
+      - [ ] Ancient Bronze Dragon
+      - [ ] Adult Bronze Dragon
+      - [ ] Young Bronze Dragon
+      - [ ] Bronze Dragon Wyrmling
+    - [ ] Copper
+      - [ ] Ancient Copper Dragon
+      - [ ] Adult Copper Dragon
+      - [ ] Young Copper Dragon
+      - [ ] Copper Dragon Wyrmling
+    - [ ] Gold
+      - [ ] Ancient Gold Dragon
+      - [ ] Adult Gold Dragon
+      - [ ] Young Gold Dragon
+      - [ ] Gold Dragon Wyrmling
+    - [ ] Silver
+      - [ ] Ancient Silver Dragon
+      - [ ] Adult Silver Dragon
+      - [ ] Young Silver Dragon
+      - [ ] Silver Dragon Wyrmling
+- [x] Dragon Turtle (bm)
+- [x] Drider (bm)
+- [x] Dryad (bm)
+- [x] Duergar (bm)
+- [x] Elementals (bm)
+  - [x] Air Elemental
+  - [x] Earth Elemental
+  - [x] Fire Elemental
+  - [x] Water Elemental
+- [x] Elves: Drow (bm)
+  - [x] Drow
+  - [x] Drow Elite Warrior
+  - [x] Drow Mage
+  - [x] Drow Priestess of Lolth
+- [x] Empyrean (bm)
+- [x] Ettercap (bm)
+- [x] Ettin (bm)
+- [x] Faerie Dragon (bm)
+- [x] Flameskull (bm)
+- [x] Flumph (bm)
+- [x] Fomorian (bm)
+- [x] Fungi (bm)
+  - [x] Gas Spore
+  - [x] Shrieker
+  - [x] Violet Fungus
+- [x] Galeb Duhr (bm)
+- [x] Gargoyle (bm)
+- [ ] Genies
+  - [ ] Dao
+  - [ ] Djinni
+  - [ ] Efreeti
+  - [ ] Marid
+- [x] Ghost (bm)
+- [x] Ghouls (bm)
+  - [x] Ghast
+  - [x] Ghoul
+- [x] Giants (bm)
+  - [x] Cloud Giant
+  - [x] Fire Giant
+  - [x] Frost Giant
+  - [x] Hill Giant
+  - [x] Stone Giant
+  - [x] Storm Giant
+- [x] Gibbering Mouther (bm)
+- [x] Gith (bm)
+  - [x] Githyanki
+    - [x] Githyanki Warrior
+    - [x] Githyanki Knight
+  - [x] Githzerai
+    - [x] Githzerai Monk
+    - [x] Githzerai Zerth
+- [x] Gnolls (bm)
+  - [x] Gnoll
+  - [x] Gnoll Pack Lord
+  - [x] Gnoll Fang of Yeenoghu
+- [x] Gnome, Deep (Svirfneblin) (bm)
+- [x] Goblins (bm)
+  - [x] Goblin
+  - [x] Goblin Boss
+- [x] Golems (bm)
+  - [x] Clay Golem
+  - [x] Flesh Golem
+  - [x] Iron Golem
+  - [x] Stone Golem
+- [ ] Gorgon
+- [ ] Grell
+- [ ] Grick
+  - [ ] Grick
+  - [ ] Grick Alpha
+- [ ] Griffon
+- [ ] Grimlock
+- [ ] Hags
+  - [ ] Green Hag
+  - [ ] Night Hag
+  - [ ] Sea Hag
+- [ ] Half-Dragon
+  - [ ] Half-Red Dragon Veteran
+- [ ] Harpy
+- [ ] Hell Hound
+- [ ] Helmed Horror
+- [ ] Hippogriff
+- [ ] Hobgoblins
+  - [ ] Hobgoblin
+  - [ ] Hobgoblin Captain
+  - [ ] Hobgoblin Warlord
+- [ ] Homunculus
+- [ ] Hook Horror
+- [ ] Hydra
+- [ ] Intellect Devourer
+- [ ] Invisible Stalker
+- [ ] Jackalwere
+- [ ] Kenku
+- [ ] Kobolds
+  - [ ] Kobold
+  - [ ] Winged Kobold
+- [ ] Kraken
+- [ ] Kuo-toa
+  - [ ] Kuo-toa
+  - [ ] Kuo-toa Archpriest
+  - [ ] Kuo-toa Whip
+- [ ] Lamia
+- [ ] Lich
+- [ ] Lizardfolk
+  - [ ] Lizardfolk
+  - [ ] Lizardfolk Shaman
+  - [ ] Lizardfolk King/Queen
+- [ ] Lycanthropes
+  - [ ] Werebear
+  - [ ] Wereboar
+  - [ ] Wererat
+  - [ ] Weretiger
+  - [ ] Werewolf
+- [ ] Magmin
+- [ ] Manticore
+- [ ] Medusa
+- [ ] Mephits
+  - [ ] Dust Mephit
+  - [ ] Ice Mephit
+  - [ ] Magma Mephit
+  - [ ] Mud Mephit
+  - [ ] Smoke Mephit
+  - [ ] Steam Mephit
+- [ ] Merfolk
+- [ ] Merrow
+- [ ] Mimic
+- [ ] Mind Flayer
+- [ ] Minotaur
+- [ ] Modrons
+  - [ ] Monodrone
+  - [ ] Duodrone
+  - [ ] Tridrone
+  - [ ] Quadrone
+  - [ ] Pentadrone
+- [ ] Mummies
+  - [ ] Mummy
+  - [ ] Mummy Lord
+- [ ] Myconids
+  - [ ] Myconid Sprout
+  - [ ] Myconid Adult
+  - [ ] Myconid Sovereign
+  - [ ] Quaggoth Spore Servant
+- [ ] Nagas
+  - [ ] Bone Naga
+  - [ ] Guardian Naga
+  - [ ] Spirit Naga
+- [ ] Nightmare
+- [ ] Nothic
+- [ ] Ogres
+  - [ ] Ogre
+  - [ ] Half-Ogre (Ogrillon)
+- [ ] Oni
+- [ ] Oozes
+  - [ ] Black Pudding
+  - [ ] Gelatinous Cube
+  - [ ] Gray Ooze
+  - [ ] Ochre Jelly
+- [ ] Orcs
+  - [ ] Orc
+  - [ ] Orc War Chief
+  - [ ] Orc Eye of Gruumsh
+  - [ ] Orog
+- [ ] Otyugh
+- [ ] Owlbear
+- [ ] Pegasus
+- [ ] Peryton
+- [ ] Piercer
+- [ ] Pixie
+- [ ] Pseudodragon
+- [ ] Purple Worm
+- [ ] Quaggoth
+- [ ] Rakshasa
+- [ ] Remorhazes
+  - [ ] Remorhaz
+  - [ ] Young Remorhaz
+- [ ] Revenant
+- [ ] Roc
+- [ ] Roper
+- [ ] Rust Monster
+- [ ] Sahuagin
+  - [ ] Sahuagin
+  - [ ] Sahuagin Priestess
+  - [ ] Sahuagin Baron
+- [ ] Salamanders
+  - [ ] Fire Snake
+  - [ ] Salamander
+- [ ] Satyr
+- [ ] Scarecrow
+- [ ] Shadow
+- [ ] Shambling Mound
+- [ ] Shield Guardian
+- [ ] Skeletons
+  - [ ] Skeleton
+  - [ ] Minotaur Skeleton
+  - [ ] Warhorse Skeleton
+- [ ] Slaadi
+  - [ ] Slaad Tadpole
+  - [ ] Red Slaad
+  - [ ] Blue Slaad
+  - [ ] Green Slaad
+  - [ ] Gray Slaad
+  - [ ] Death Slaad
+- [ ] Specter
+- [ ] Sphinxes
+  - [ ] Androsphinx
+  - [ ] Gynosphinx
+- [ ] Sprite
+- [ ] Stirge
+- [ ] Succubus/Incubus
+- [ ] Tarrasque
+- [ ] Thri-kreen
+- [ ] Treant
+- [ ] Troglodyte
+- [ ] Troll
+- [ ] Umber Hulk
+- [ ] Unicorn
+- [ ] Vampires
+  - [ ] Vampire
+  - [ ] Vampire Spawn
+- [ ] Water Weird
+- [ ] Wight
+- [ ] Will-o'-wisp
+- [ ] Wraith
+- [ ] Wyvern
+- [ ] Xorn
+- [ ] Yetis
+  - [ ] Yeti
+  - [ ] Abominable Yeti
+- [ ] Yuan-ti
+  - [ ] Yuan-ti Abomination
+  - [ ] Yuan-ti Malison
+  - [ ] Yuan-ti Pureblood
+- [ ] Yugoloths
+  - [ ] Arcanaloth
+  - [ ] Mezzoloth
+  - [ ] Nycaloth
+  - [ ] Ultraloth
+- [ ] Zombies
+  - [ ] Zombie
+  - [ ] Beholder Zombie
+  - [ ] Ogre Zombie
+- [ ] Appendix A: Miscellaneous Creatures
+  - [ ] Ape
+  - [ ] Awakened Shrub
+  - [ ] Awakened Tree
+  - [ ] Axe Beak
+  - [ ] Baboon
+  - [ ] Badger
+  - [ ] Black Bear
+  - [ ] Blink Dog
+  - [ ] Blood Hawk
+  - [ ] Boar
+  - [ ] Brown Bear
+  - [ ] Camel
+  - [ ] Cat
+  - [ ] Constrictor Snake
+  - [ ] Crab
+  - [ ] Crocodile
+  - [ ] Death Dog
+  - [ ] Deer
+  - [ ] Dire Wolf
+  - [ ] Draft Horse
+  - [ ] Eagle
+  - [ ] Elephant
+  - [ ] Elk
+  - [ ] Flying Snake
+  - [ ] Frog
+  - [ ] Giant Ape
+  - [ ] Giant Badger
+  - [ ] Giant Bat
+  - [ ] Giant Boar
+  - [ ] Giant Centipede
+  - [ ] Giant Constrictor Snake
+  - [ ] Giant Crab
+  - [ ] Giant Crocodile
+  - [ ] Giant Eagle
+  - [ ] Giant Elk
+  - [ ] Giant Fire Beetle
+  - [ ] Giant Frog
+  - [ ] Giant Goat
+  - [ ] Giant Hyena
+  - [ ] Giant Lizard
+  - [ ] Giant Octopus
+  - [ ] Giant Owl
+  - [ ] Giant Poisonous Snake
+  - [ ] Giant Rat
+  - [ ] Giant Scorpion
+  - [ ] Giant Sea Horse
+  - [ ] Giant Shark
+  - [ ] Giant Spider
+  - [ ] Giant Toad
+  - [ ] Giant Vulture
+  - [ ] Giant Wasp
+  - [ ] Giant Weasel
+  - [ ] Giant Wolf Spider
+  - [ ] Goat
+  - [ ] Hawk
+  - [ ] Hunter Shark
+  - [ ] Hyena
+  - [ ] Jackal
+  - [ ] Killer Whale
+  - [ ] Lion
+  - [ ] Lizard
+  - [ ] Mammoth
+  - [ ] Mastiff
+  - [ ] Mule
+  - [ ] Octopus
+  - [ ] Owl
+  - [ ] Panther
+  - [ ] Phase Spider
+  - [ ] Poisonous Snake
+  - [ ] Polar Bear
+  - [ ] Pony
+  - [ ] Quipper
+  - [ ] Rat
+  - [ ] Raven
+  - [ ] Reef Shark
+  - [ ] Rhinoceros
+  - [ ] Riding Horse
+  - [ ] Saber-Toothed Tiger
+  - [ ] Scorpion
+  - [ ] Sea Horse
+  - [ ] Spider
+  - [ ] Swarm of Bats
+  - [ ] Swarm of Insects
+  - [ ] Swarm of Poisonous Snakes
+  - [ ] Swarm of Quippers
+  - [ ] Swarm of Rats
+  - [ ] Swarm of Ravens
+  - [ ] Tiger
+  - [ ] Vulture
+  - [ ] Warhorse
+  - [ ] Weasel
+  - [ ] Winter Wolf
+  - [ ] Wolf
+  - [ ] Worg
+- [ ] Appendix B: Nonplayer Characters
+  - [ ] Acolyte
+  - [ ] Archmage
+  - [ ] Assassin
+  - [ ] Bandit
+  - [ ] Bandit Captain
+  - [ ] Berserker
+  - [ ] Commoner
+  - [ ] Cultist
+  - [ ] Cult Fanatic
+  - [ ] Druid
+  - [ ] Gladiator
+  - [ ] Guard
+  - [ ] Knight
+  - [ ] Mage
+  - [ ] Noble
+  - [ ] Priest
+  - [ ] Scout
+  - [ ] Spy
+  - [ ] Thug
+  - [ ] Tribal Warrior
+  - [ ] Veteran

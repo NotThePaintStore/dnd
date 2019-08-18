@@ -1,0 +1,84 @@
+{
+  "name": "Imp",
+  "description": [
+    {
+      "content": "Devils personify tyranny, with a totalitarian society dedicated to the domination of mortal life. The shadow of the Nine Hells of Baator extends far across the multiverse, and Asmodeus, the dark lord of Nessus, strives to subjugate the cosmos to satisfy his thirst for power. To do so, he must continually expand his infernal, armies, sending his servants to the mortal realm to corrupt the souls from which new devils are spawned."
+    },
+    {
+      "title": "Lords of Tyranny.",
+      "content": "Devils live to conquer, enslave, and oppress. They take perverse delight in exercising authority over the weak, and any creature that defies the authority of a devil faces swift and cruel punishment. Every interaction is an opportunity for a devil to display its power, and all devils have a keen understanding of how to use and abuse their power."
+    },
+    {
+      "content": "Devils understand the failings that plague intelligent mortals, and they use that knowledge to lead mortals into temptation and darkness, turning creatures into slaves to their own corruption. Devils on the Material Plane use their influence to manipulate humanoid rulers, whispering evil thoughts, fomenting paranoia, and eventually driving them to tyrannical actions."
+    },
+    {
+      "title": "Obedience and Ambition.",
+      "content": "In accordance with their lawful alignment, devils obey even when they envy or dislike their superiors, knowing that their obedience will be rewarded. The hierarchy of the Nine Hells depends on this unswerving loyalty, without which that fiendish plane would become as anarchic as the Abyss."
+    },
+    {
+      "content": "At the same time, it is in the nature of devils to scheme, creating in some a desire to rule that eclipses their contentment to be ruled. This singular ambition is strongest among the archdevils whom Asmodeus appoints to rule the nine layers of the Nine Hells. These high-ranking fiends are the only devils to ever sample true power, which they crave like the sweetest ambrosia."
+    },
+    {
+      "title": "Dark Dealers and Soul Mongers.",
+      "content": "Devils are confined to the Lower Planes, but they can travel beyond those planes by way of portals or powerful summoning magic. They love to strike bargains with mortals seeking to gain some benefit or prize, but a mortal making such a bargain must be wary. Devils are crafty negotiators and positively ruthless at enforcing the terms of an agreement. Moreover, a contract with even the lowliest devil is enforced by Asmodeus's will. Any mortal creature that breaks such a contract instantly forfeits its soul, which is spirited away to the Nine Hells."
+    },
+    {
+      "content": "To own a creature's soul is to have absolute control over that creature, and most devils accept no other currency in exchange for the fiendish power and boons they can provide. A soul is usually forfeited when a mortal dies naturally, for devils are immortal and can wait years for a contract to play out. If a contract allows a devil to claim a mortal's soul before death, it can instantly return to the Nine Hells with the soul in its possession. Only divine intervention can release a soul after a devil has claimed it."
+    },
+    {
+      "break": "true",
+      "content": "Imps are found throughout the Lower Planes, either running errands for their infernal masters, spying on rivals, or misleading and waylaying mortals. An imp will proudly serve an evil master of any kind, but it can't be relied on to carry out tasks with any speed or efficiency."
+    },
+    {
+      "content": "An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while invisible, attacking with its poison stinger."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Tiny fiend (devil, shapechanger)",
+    "alignment": "lawful evil",
+    "ac": "13",
+    "hp": "10 (3d4 + 3)",
+    "speed": "20 ft., fly 40 ft.",
+    "abilities": {
+      "str": "6",
+      "dex": "17",
+      "con": "13",
+      "int": "11",
+      "wis": "12",
+      "cha": "14"
+    },
+    "skills": "Deception +4, Insight +3, Persuasion +4, Stealth +5",
+    "dam_resist": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+    "dam_immune": "fire, poison",
+    "con_immune": "poisoned",
+    "senses": "darkvision 120 ft., passive Perception 11",
+    "languages": "Infernal, Common",
+    "challenge": "1 (200 XP)",
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "description": "The imp can use its action to polymorph into a beast form that resembles a rat (speed 20ft.), a raven (20ft., fly 60ft.), or a spider (20ft., climb 20ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Devil's Sight.",
+        "description": "Magical darkness doesn't impede the imp's darkvision."
+      },
+      {
+        "name": "Magic Resistance.",
+        "description": "The imp has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Sting (Bite in Beast Form).",
+        "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+      },
+      {
+        "name": "Invisibility.",
+        "description": "The imp magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it."
+      }
+    ]
+  }
+}

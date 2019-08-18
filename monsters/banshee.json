@@ -1,0 +1,75 @@
+{
+  "name": "Banshee",
+  "description": [
+    {
+      "content": "When night falls, unlucky travelers hear the faint cries of the forlorn dead. This woeful spirit is a banshee, a spiteful creature formed from the spirit of a female elf."
+    },
+    {
+      "content": "Banshees appear as luminous, wispy forms that vaguely recall their mortal features. A banshee's face is wreathed in a wild tangle of hair, its body clad in wispy rags that flutter and stream around it."
+    },
+    {
+      "title": "Divine Wrath.",
+      "content": "Banshees are the undead remnants of elves who, blessed with great beauty, failed to use their gift to bring joy to the world. Instead, they used their beauty to corrupt and control others. Elves afflicted by the banshee's curse experience no gladness, feeling only distress in the presence of the Living. As the curse takes its toll, their minds and bodies decay, until death completes their transformation into undead monsters."
+    },
+    {
+      "title": "Sorrow Bound.",
+      "content": "A banshee becomes forever bound to the place of its demise, unable to venture more than five miles from there. It is forced to relive every moment of its life with perfect recall, yet always refuses to accept responsibility for its doom."
+    },
+    {
+      "title": "Beauty Hoarders.",
+      "content": "The vanity that inspired the banshee's cursed creation persists in undeath. These creatures covet beautiful objects: fine jewelry, paintings, statues, and other objects of art. At the same time, a banshee abhors any mirrored surface, for it can't bear to see the horror of its own existence. A single glimpse of itself is enough to send a banshee into a rage."
+    },
+    {
+      "title": "Undead Nature.",
+      "content": "A banshee doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Medium undead",
+    "alignment": "chaotic evil",
+    "ac": "12",
+    "hp": "58 (13d8)",
+    "speed": "0 ft., fly 40 ft. (hover)",
+    "abilities": {
+      "str": "1",
+      "dex": "14",
+      "con": "10",
+      "int": "12",
+      "wis": "11",
+      "cha": "17"
+    },
+    "save_throw": "Wis +2, Cha +4",
+    "dam_resist": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "dam_immune": "cold, necrotic, poison",
+    "con_immune": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+    "senses": "darkvision 60ft., passive Perception 10",
+    "languages": "Common, Elvish",
+    "challenge": "4 (1,100 XP)",
+    "traits": [
+      {
+        "name": "Detect Life.",
+        "description": "The banshee can magically sense the presence of living creatures up to 5 miles away. She knows the general direction they're in but not their exact locations."
+      },
+      {
+        "name": "Incorporeal Movement.",
+        "description": "The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Corrupting Touch.",
+        "description": "<i>Melee Spell Attack:</i> +4 to hit, reach 5 ft., one target.<br><i>Hit:</i> 12 (3d6 + 2) necrotic damage."
+      },
+      {
+        "name": "Horrifying Visage.",
+        "description": "Each non-undead creature within 60 feet of the banshee that can see her must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if the banshee is within line of sight, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the banshee's Horrifying Visage for the next 24 hours."
+      },
+      {
+        "name": "Wail (1/Day).",
+        "description": "The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage."
+      }
+    ]
+  }
+}

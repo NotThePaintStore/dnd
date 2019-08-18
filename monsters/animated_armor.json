@@ -1,0 +1,64 @@
+{
+  "name": "Animated Armor",
+  "description": [
+    {
+      "content": "Animated objects are crafted with potent magic to follow the commands of their creators. When not commanded, they follow the last order they received to the best of their ability, and can act independently to fulfill simple instructions. Some animated objects (including many of those created in the Feywild) might converse fluently or adopt a persona, but most are simple automatons."
+    },
+    {
+      "title": "Constructed Nature.",
+      "content": "An animated object doesn't require air, food, drink, or sleep."
+    },
+    {
+      "content": "The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone."
+    },
+    {
+      "break": "true",
+      "content": "This empty steel shell clamors as it moves, heavy plates banging and grinding against one another like the vengeful spirit of a fallen knight. Ponderous but persistent, this magical guardian is almost always a suit of plate armor."
+    },
+    {
+      "content": "To add to its menace, animated armor is frequently enchanted with scripted speech, so the armor can utter warnings, demand passwords, or deliver riddles. Rare suits of animated armor are able to carry on an actual conversation."
+    }
+  ],
+  "image": "",
+  "double": "false",
+  "statblock": {
+    "classification": "Medium construct",
+    "alignment": "unaligned",
+    "ac": "18 (natural armor)",
+    "hp": "33 (6d8 + 6)",
+    "speed": "25 ft.",
+    "abilities": {
+      "str": "14",
+      "dex": "11",
+      "con": "13",
+      "int": "1",
+      "wis": "3",
+      "cha": "1"
+    },
+    "dam_immune": "poison, psychic",
+    "con_immune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "&mdash;",
+    "challenge": "1 (200 XP)",
+    "traits": [
+      {
+        "name": "Antimagic Susceptibility.",
+        "description": "The armor is incapacitated while in the area of an anti magic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+      },
+      {
+        "name": "False Appearance.",
+        "description": "While the armor remains motionless, it is indistinguishable from a normal suit of armor."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "description": "The armor makes two melee attacks."
+      },
+      {
+        "name": "Slam.",
+        "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target.<br><i>Hit:</i> 5 (1d6 + 2) bludgeoning damage"
+      }
+    ]
+  }
+}
