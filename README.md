@@ -287,6 +287,10 @@ Primus only desires one thing: perfect law and order. As such, he oversees the o
 
 **Moloch, Former Archdevil of Malbolge**
 
+**Scheherazade, Lady of the Lake**
+
+Guardian of a legendary sword that rests at the bottom of a lake. 
+
 #### Demon Princes
 
 - Orcus
