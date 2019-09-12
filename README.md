@@ -385,7 +385,15 @@ A cloak that shimmers like the scales of any color of dragon. Wearing the cloak 
 
 **Belt of Dragon-Kin**
 
-A belt of dragon leather that increases your Strength score by 2 (to a maximum of 20)
+A belt of dragon leather that increases your Strength score by 2 (to a maximum of 20) and grants the ability to use breath weapons like a dragonborn.
+
+**Moon Cat's Boots**
+
+- +10 Movement Speed
+- You ignore difficult terrain
+- You cannot be knocked prone
+- You always land on your feet
+- You reduce falling damage by 30ft
 
 ### Factions/Organizations/Guilds
 
