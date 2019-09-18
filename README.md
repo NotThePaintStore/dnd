@@ -13,6 +13,8 @@
 - Ethereal Plane = Spatial Sea; Astral Plane = Temporal Sea (Sea of Stars?)
 - Etherguard: joint military force surrounding the Ghostlands; their role is to keep the ghosts away from the populated cities and towns. Each kingdom contributes men to the Etherguard annually.
 - The Archangels (or Ahura Mazda (celestial for “Holy Immortals”)) are the 4 Solars that are Pelor’s highest-ranked servants and personal guard. Their names are Uriel, Mikael, Israfil, and Azrael.
+- Each major city has its own knightly order.
+- The Rusty Lantern: an old abandoned tavern in Waterdeep that's given to the PCs 
 
 ### Outer Planes of Existence
 
@@ -48,7 +50,7 @@
     <td>NE</td>
   </tr>
   <tr>
-    <td>The Nine Hells<td>
+    <td>The Nine Hells</td>
     <td>LE</td>
   </tr>
   <tr>
