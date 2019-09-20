@@ -15,6 +15,7 @@
 - The Archangels (or Ahura Mazda (celestial for “Holy Immortals”)) are the 4 Solars that are Pelor’s highest-ranked servants and personal guard. Their names are Uriel, Mikael, Israfil, and Azrael.
 - Each major city has its own knightly order.
 - The Rusty Lantern: an old abandoned tavern in Waterdeep that's given to the PCs 
+- The tavern is occupied by the ghost of a little girl who died there. She was locked in a room when the owner was killed, and was left there, so she died. She stays because she doesn't want anyone to be alone like she was.
 
 ### Outer Planes of Existence
 
