@@ -16,6 +16,7 @@
 - Each major city has its own knightly order.
 - The Rusty Lantern: an old abandoned tavern in Waterdeep that's given to the PCs 
 - The tavern is occupied by the ghost of a little girl who died there. She was locked in a room when the owner was killed, and was left there, so she died. She stays because she doesn't want anyone to be alone like she was.
+- The Five Boroughs are a collection of independent towns run by warrior captains who settled there.
 
 ### Outer Planes of Existence
 
